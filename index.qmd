@@ -1,0 +1,9 @@
+---
+title: "Sebastian Schmitt"
+editor:
+    render-on-save: true
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
