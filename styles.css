@@ -1,1 +1,174 @@
 /* css styles */
+
+/* Hide default toggle */
+.quarto-color-scheme-toggle {
+  display: none !important;
+}
+
+/* Hide default TOC title */
+#toc-title {
+  display: none !important;
+}
+
+/* TOC Header Styles (Global) */
+.toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Default: Align toggle to right */
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--bs-border-color-translucent);
+}
+
+.toc-back {
+  display: none; /* Hidden by default (widescreen) */
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.toc-theme-toggle {
+  cursor: pointer;
+  font-size: 1.5rem; /* Increased size */
+  color: var(--bs-body-color);
+  text-decoration: none;
+}
+
+/* Toggle Icons logic */
+body.quarto-light .toc-theme-toggle .bi-sun-fill { display: none; }
+body.quarto-light .toc-theme-toggle .bi-moon-fill { display: inline-block; }
+
+body.quarto-dark .toc-theme-toggle .bi-sun-fill { display: inline-block; }
+body.quarto-dark .toc-theme-toggle .bi-moon-fill { display: none; }
+
+.about-image {
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  border-radius: 500px; /* Round edges */
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  /* Profile Layout: Picture left, Name/Links right */
+  .quarto-about-trestles .about-entity {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto auto;
+    column-gap: 1.5rem;
+    align-items: center;
+    justify-items: start;
+    text-align: left;
+  }
+
+  .quarto-about-trestles .about-entity .about-image {
+    grid-row: 1 / 3;
+    grid-column: 1;
+    width: 150px !important; /* Smaller image in mobile */
+    height: 150px !important;
+    margin-bottom: 0;
+  }
+
+  .quarto-about-trestles .about-entity header {
+    grid-row: 1;
+    grid-column: 2;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .quarto-about-trestles .about-entity .about-links {
+    grid-row: 2;
+    grid-column: 2;
+    justify-content: center;
+    width: 100%;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 0.5rem;
+  }
+
+  .quarto-about-trestles .about-link {
+    width: auto !important;
+    margin-bottom: 0 !important;
+  }
+
+  /* TOC Expandable on Mobile */
+  #quarto-margin-sidebar {
+    display: block !important;
+    position: static;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #TOC {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1100;
+    
+    width: 3rem;
+    height: 3rem;
+    
+    overflow: hidden;
+    transition: all 0.3s ease;
+    
+    border: 1px solid var(--bs-border-color-translucent);
+    border-radius: .5rem;
+    background-color: var(--bs-body-bg);
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Hide TOC content when collapsed */
+  #TOC > * {
+    display: none;
+  }
+  
+  #TOC::before {
+    content: "☰";
+    font-size: 1.5rem;
+    line-height: 1;
+    display: block;
+    text-align: center;
+  }
+  
+  #TOC.expanded {
+    display: block !important;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, -50%);
+    
+    width: 80%;
+    height: auto;
+    max-height: 80vh;
+    
+    padding: 1rem;
+    overflow-y: auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  }
+  
+  #TOC.expanded > * {
+    display: block;
+  }
+  
+  #TOC.expanded::before {
+    content: none;
+  }
+  
+  .toc-back {
+    display: inline-block;
+    margin-left: 1rem; /* Space between toggle and back */
+  }
+  
+  /* Mobile: Align items to right */
+  .toc-header {
+    justify-content: flex-end !important;
+  }
+}

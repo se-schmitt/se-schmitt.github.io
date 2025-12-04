@@ -1,9 +1,45 @@
 ---
 title: "Sebastian Schmitt"
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - text: Scholar
+      href: https://scholar.google.com/citations?user=9h1daswAAAAJ&hl=de
+      icon: google
+    - text: Github
+      href: https://github.com/se-schmitt
+      icon: github
+    - text: Email
+      href: mailto:sebastian.schmitt@rptu.de
+      icon: envelope
 editor:
     render-on-save: true
 ---
 
-This is a Quarto website.
+## Bio
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Postdoc researcher...
+
+## CV
+
+### Education
+
+*   **PhD in Physics**, University of Somewhere, 2020
+*   **MSc in Physics**, University of Somewhere, 2016
+
+### Experience
+
+*   **Postdoc**, University of X, 2020-Present
+
+## Publications
+
+### 2023
+
+*   **Paper Title**, Journal Name.
+
+### 2022
+
+*   **Another Paper**, Conference Name.

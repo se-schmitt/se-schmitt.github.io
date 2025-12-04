@@ -1,27 +1,30 @@
 project:
   type: website
 
-website:
+# website:
   # title: "website"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - cv.qmd
-      - publications.qmd
-      - about.qmd
+  # navbar:
+  #   left:
+  #     - href: index.qmd
+  #       text: Home
 
 format:
   html:
+    toc-location: right
     theme:
-      light: 
-        - cosmo
-        - brand
       dark: 
         - solar
-        - brand
+        - brand.scss
+      light: 
+        - cosmo
+        - brand.scss
     css: styles.css
     toc: true
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css">
+    include-after-body:
+      - mobile-toc.html
 
 
 
