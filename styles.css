@@ -42,10 +42,44 @@ body.quarto-dark .toc-theme-toggle .bi-sun-fill { display: inline-block; }
 body.quarto-dark .toc-theme-toggle .bi-moon-fill { display: none; }
 
 .about-image {
-  width: 20em;
-  height: 20em;
-  object-fit: cover;
-  border-radius: 500px; /* Round edges */
+  width: 10em !important; /* Smaller width */
+  height: auto !important; /* Preserve aspect ratio */
+  border-radius: 1rem; /* Soft rounded corners, not circle */
+}
+
+/* --- User Customizations --- */
+
+/* Color Variables */
+/* You can change these color codes to customize the look */
+:root {
+  /* Light Mode Colors */
+  --custom-bg-color: #ffffff;
+  --custom-text-color: #373a3c;
+  --custom-link-color: #2780e3;
+}
+
+body.quarto-dark {
+  /* Dark Mode Colors */
+  --custom-bg-color: #002b36;
+  --custom-text-color: #839496;
+  --custom-link-color: #268bd2;
+}
+
+/* Apply the variables */
+body {
+  background-color: var(--custom-bg-color) !important;
+  color: var(--custom-text-color) !important;
+}
+
+a {
+  color: var(--custom-link-color);
+}
+
+/* Mobile Spacing Fix */
+@media (max-width: 768px) {
+  .quarto-about-trestles .about-entity {
+    margin-top: 3rem; /* Adds space at the top on mobile */
+  }
 }
 
 /* Mobile adjustments */
@@ -163,12 +197,35 @@ body.quarto-dark .toc-theme-toggle .bi-moon-fill { display: none; }
   }
   
   .toc-back {
-    display: inline-block;
-    margin-left: 1rem; /* Space between toggle and back */
-  }
-  
-  /* Mobile: Align items to right */
-  .toc-header {
-    justify-content: flex-end !important;
+    display: block;
+    margin-bottom: 1rem;
+    text-align: right;
+    font-size: 1.5rem;
   }
 }
+
+/* Ensure the trestles layout uses available space but stays centered */
+.quarto-about-trestles {
+  width: 100%;
+  max-width: 100%; /* Allow it to fill the container */
+}
+
+/* If page-layout: full is active, this ensures it doesn't touch edges */
+@media (min-width: 1200px) {
+  .quarto-container, 
+  .quarto-container.page-layout-full,
+  .page-columns, 
+  .column-page-left,
+  .column-page {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  
+  /* Ensure the trestles grid expands to fill the width */
+  .quarto-about-trestles {
+    max-width: 100% !important;
+  }
+}
+
