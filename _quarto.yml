@@ -1,7 +1,5 @@
 project:
   type: website
-  pre-render:
-    - publications.r
   resources:
     - _headers
 
