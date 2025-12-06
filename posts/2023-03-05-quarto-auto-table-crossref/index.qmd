@@ -1,0 +1,66 @@
+---
+title: "Quarto Q&A: How to have labels and captions for an unknown number of tables?"
+description: |
+  A small example of how to automatically have labels and captions for an unknown number of tables in Quarto, using `knitr` and R.
+date: "2023-03-05"
+categories: [Quarto, Q&A, R, knitr]
+image: featured.png
+image-alt: |
+  Screenshot of an html rendered by Quarto. it starts with a sentence saying below are several tables by species of penguins, followed by an item list showing the species and their respective cross-reference to the tables.
+  Tables are simply on top of each other after the item list.
+---
+
+I decided to start small blog posts with answers/solutions to questions I have seen and answered on [Twitter](https://twitter.com/), [Mastodon](https://joinmastodon.org/), and [Quarto](https://quarto.org/) GitHub [Issues](https://github.com/quarto-dev/quarto-cli/issues) & [Discussions](https://github.com/quarto-dev/quarto-cli/discussions).
+
+![](featured.png){fig-alt="Screenshot of an html rendered by Quarto. it starts with a sentence saying below are several tables by species of penguins, followed by an item list showing the species and their respective cross-reference to the tables. Tables are simply on top of each other after the item list." fig-align="center"}
+
+## The Question/Problem
+
+> Suppose, in a #QuartoPub document, using #rStats I have a list of length G, each item in this list is a flextable - I need to use flextable as opposed to kable, to allow for output to docx.
+> G is unknown apriori, but will be at least 1.
+>
+> Is there any way to create a sequence of tables with associated labels and captions that could be worked out dynamically/parsed? 
+> Manually, this can be done really easily (creating new labels etc) and knowing when to stop, but is there a way of automating this?
+
+_Source: <https://mastodon.ie/@DToher/109915736491084825>_
+
+## The Answer/Solution
+
+The trick is, within a code cell with `output: asis`, to use `knitr::knit_child()` to create code cells with `label`, caption (`tbl-cap`), or whatever option you might want or need.
+
+```{r}
+#| echo: false
+#| output: asis
+#| classes: panel-tabset
+cat("\n\n## Quarto Input\n\n")
+cat(
+  "\n````md",
+  readLines("assets/_demo.qmd"),
+  "````\n",
+  sep = "\n"
+)
+# system2("quarto", c("render", "assets/_demo.qmd"))
+# devnull <- webshot2::webshot(
+#   url = "assets/_demo.html",
+#   file = "featured.png",
+#   vwidth = 1920 * 1.4,
+#   vheight = 1080 * 1.4,
+#   cliprect = "viewport"
+# )
+cat("\n\n## Quarto Output\n\n")
+fig_alt <- "Screenshot of an html rendered by Quarto. it starts with a sentence saying below are several tables by species of penguins, followed by an item list showing the species and their respective cross-reference to the tables.
+Tables are simply on top of each other after the item list."
+cat(sprintf("![](%s){fig-alt='%s'}", "featured.png", fig_alt))
+```
+
+## References
+
+References:
+
+- <https://bookdown.org/yihui/rmarkdown-cookbook/child-document.html>
+- <https://bookdown.org/yihui/rmarkdown-cookbook/knit-expand.html>
+- <https://bookdown.org/yihui/rmarkdown-cookbook/results-asis.html>
+
+## Examples
+
+- <https://github.com/quarto-dev/quarto-examples>
