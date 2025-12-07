@@ -18,21 +18,21 @@ about:
     - text: '{{< iconify fa7-solid:envelope title="Envelope logo for email" label="Envelope logo for email" >}}'
       href: "mailto:sebastian.schmitt@rptu.de"
       aria-label: "Envelope logo for email"
-    - text: '{{< iconify octicon:mark-github-16 title="GitHub logo linking to mcanouil account" label="GitHub logo linking to mcanouil account" >}}'
+    - text: '{{< iconify octicon:mark-github-16 title="GitHub logo" label="GitHub logo" >}}'
       href: "https://github.com/mcanouil"
-      aria-label: "GitHub logo linking to mcanouil account"
+      aria-label: "GitHub logo"
       target: _blank
     - text: '{{< iconify academicons:google-scholar title="Google Scholar" label="Google Scholar" >}}'
       href: "https://scholar.google.com/citations?user=9h1daswAAAAJ&hl"
       aria-label: "Google Scholar"
       target: _blank
-    - text: '{{< iconify fa7-brands:orcid title="ORCID logo linking to Mickaël CANOUIL ORCID account" label="ORCID logo linking to Mickaël CANOUIL ORCID account" >}}'
+    - text: '{{< iconify fa7-brands:orcid title="ORCID logo" label="ORCID logo" >}}'
       href: "https://orcid.org/0000-0001-7909-2945"
-      aria-label: "ORCID logo linking to Mickaël CANOUIL ORCID account"
+      aria-label: "ORCID logo"
       target: _blank
-    - text: '{{< iconify fa7-brands:linkedin title="LinkedIn logo linking to mickaelcanouil account" label="LinkedIn logo linking to mickaelcanouil account" >}}'
-      href: "https://www.linkedin.com/in/mickaelcanouil"
-      aria-label: "LinkedIn logo linking to mickaelcanouil account"
+    - text: '{{< iconify fa7-brands:linkedin title="LinkedIn logo" label="LinkedIn logo" >}}'
+      href: "https://www.linkedin.com/in/sebastian-schmitt-13432218a"
+      aria-label: "LinkedIn logo"
       target: _blank
 ---
 
