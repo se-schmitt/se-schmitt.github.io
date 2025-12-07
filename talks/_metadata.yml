@@ -5,9 +5,9 @@
 freeze: true
 
 author:
-  - name: "Mickaël CANOUIL, _Ph.D._"
-    orcid: "0000-0002-3396-4549"
-    url: "https://mickael.canouil.fr"
+  - name: "Sebastian Schmitt"
+    orcid: "0000-0001-7909-2945"
+    url: "https://se-schmitt.github.io"
 
 # Enable banner style title blocks
 title-block-banner: true
