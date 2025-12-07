@@ -67,11 +67,14 @@ format:
       dark:
         - cosmo
         - brand
+        - assets/stylesheets/dark.scss
         - assets/stylesheets/theme.scss
         - assets/stylesheets/projects.scss
     lang: en-GB
     date-format: 'dddd[, the] Do [of] MMMM, YYYY'
-    highlight-style: github
+    highlight-style:
+      light: github
+      dark: dracula
     code-copy: true
     code-link: true
     code-overflow: wrap
