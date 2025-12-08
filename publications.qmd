@@ -1,21 +1,51 @@
 ---
-title: 'Publications (8 + 41)'
+title: "Publications"
 title-block-banner: true
 image: /assets/images/social-profile.png
-date-format: 'MMMM,<br>YYYY'
 listing:
-  contents:
-    - publications.yml
-  page-size: 10
-  sort: 'issued desc'
-  type: table
-  categories: false
-  sort-ui: [date, title, journal-title, first, last]
-  filter-ui: [date, title, journal-title]
-  fields: [date, title, journal-title, first, last]
-  field-display-names:
-    date: Issued
-    journal-title: Journal
-    first: 'First'
-    last: 'Last'
+  - id: publications
+    template: assets/ejs/publications.ejs
+    categories: false
+    sort-ui: false
+    sort: "date desc"
+    filter-ui: true
+    max-description-length: 300
+    page-size: 9
+    fields: [image, title, author, date, journal, categories]
+    feed:
+      language: en-gb
+    contents:
+
+      - abstract: Entropy scaling is a powerful technique that has been used
+            for predicting transport properties of pure components over a wide
+            range of states. However, modeling mixture diffusion coefficients by
+            entropy scaling is an unresolved task. We tackle this issue and
+            present an entropy scaling framework for predicting mixture
+            self-diffusion coefficients as well as mutual diffusion coefficients
+            in a thermodynamically consistent way. The predictions of the
+            mixture diffusion coefficients are made based on information on the
+            self-diffusion coefficients of the pure components and the
+            infinite-dilution diffusion coefficients. This is accomplished using
+            information on the entropy of the mixture, which is taken here from
+            molecular-based equations of state. Examples for the application of
+            the entropy scaling framework for the prediction of diffusion
+            coefficients in mixtures illustrate its performance. It enables
+            predictions over a wide range of temperatures and pressures
+            including gaseous, liquid, supercritical, and metastable
+            states---also for strongly non-ideal mixtures.
+        author:
+            Sebastian Schmitt
+            Hans Hasse
+            Simon Stephan
+        journal: Nature Communications
+        doi: 10.1038/s41467-025-57780-z
+        issue: 1
+        date: 2025-03
+        page: 2611
+        title: Entropy scaling for diffusion coefficients in fluid mixtures
+        categories: [Journal Article, Open Source]
+        url: "https://www.nature.com/articles/s41467-025-57780-z"
+        volume: 16
+        image: /publications/image.png
+
 ---
