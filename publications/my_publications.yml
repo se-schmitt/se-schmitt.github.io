@@ -1,112 +1,138 @@
-- image: "publications/schmitt_entropy_2025.png"
+- image: "publications/images/schmitt_entropy_2025.svg"
   citation: "__S. Schmitt__, H. Hasse, S. Stephan, *Nature Communications* 16 (2025) 2611."
   doi: "10.1038/s41467-025-57780-z"
   title: "Entropy scaling for diffusion coefficients in fluid mixtures"
   categories:
     - "Journal Article"
+    - "first author"
+  data: BibInternal.Date("", "March", "2025")
   url: "https://www.nature.com/articles/s41467-025-57780-z"
-- image: "publications/alt_measurements_2025.png"
+- image: "publications/images/alt_measurements_2025.svg"
   citation: "D. Alt, __S. Schmitt__, H. Hasse, S. Stephan, *International Journal of Thermophysics* 46 (2025) 137."
   doi: "10.1007/s10765-025-03612-7"
-  title: "Measurements and {Entropy} {Scaling} of the {Viscosity} of 1-{Octanol} at {Pressures} up to 600 {MPa}"
+  title: "Measurements and Entropy Scaling of the Viscosity of 1-Octanol at Pressures up to 600 MPa"
   categories:
     - "Journal Article"
+  data: BibInternal.Date("", "July", "2025")
   url: "https://doi.org/10.1007/s10765-025-03612-7"
-- image: "publications/mross_diffusion_2024.png"
+- image: "publications/images/mross_diffusion_2024.svg"
   citation: "S. Mross, __S. Schmitt__, S. Stephan, K. Münnemann, H. Hasse, *Industrial \\& Engineering Chemistry Research* 63 (2024) 1662--1669."
   doi: "10.1021/acs.iecr.3c03839"
   title: "Diffusion coefficients in mixtures of poly(oxymethylene) dimethyl ethers with alkanes"
   categories:
     - "Journal Article"
+  data: BibInternal.Date("", "January", "2024")
   url: "https://doi.org/10.1021/acs.iecr.3c03839"
-- image: "publications/schmitt_measurements_2024.png"
+- image: "publications/images/schmitt_measurements_2024.svg"
   citation: "__S. Schmitt__, H. Hasse, S. Stephan, *Journal of Chemical \\& Engineering Data* 69 (2024) 2967--2983."
   doi: "10.1021/acs.jced.4c00265"
-  title: "Measurements and {Equation} of {State} {Modeling} of the {Density} of {Five} 1-{Alcohols} ({C6}–{C10}) at {Pressures} of up to 120 {MPa}"
+  title: "Measurements and Equation of State Modeling of the Density of Five 1-Alcohols (C6–C10) at Pressures of up to 120 MPa"
   categories:
     - "Journal Article"
+    - "first author"
+  data: BibInternal.Date("", "August", "2024")
   url: ""
-- image: "publications/schaefer_explosions_2024.png"
+- image: "publications/images/schaefer_explosions_2024.svg"
   citation: "D. Schaefer, B. Kunstmann, __S. Schmitt__, H. Hasse, M. Kohns, *Physics of Fluids* 36 (2024) 037129."
   doi: "10.1063/5.0190455"
   title: "Explosions of nanodroplets studied with molecular dynamics simulations"
   categories:
     - "Journal Article"
+  data: BibInternal.Date("", "March", "2024")
   url: "https://doi.org/10.1063/5.0190455"
-- image: "publications/schmitt_entropy_2024.png"
+- image: "publications/images/schmitt_entropy_2024.svg"
   citation: "__S. Schmitt__, H. Hasse, S. Stephan, *Journal of Molecular Liquids* 395 (2024) 123811."
   doi: "10.1016/j.molliq.2023.123811"
   title: "Entropy scaling framework for transport properties using molecular-based equations of state"
   categories:
     - "Journal Article"
+    - "first author"
+  data: BibInternal.Date("", "February", "2024")
   url: "https://linkinghub.elsevier.com/retrieve/pii/S0167732223026181"
-- image: "publications/schmitt_entropy_2024-1.png"
+- image: "publications/images/schmitt_entropy_2024-1.svg"
   citation: "__S. Schmitt__, H. Hasse, S. Stephan, *arXiv* (2024)."
   doi: "10.48550/arXiv.2409.17615"
-  title: "Entropy {Scaling} for {Diffusion} {Coefficients} in {Mixtures}"
+  title: "Entropy Scaling for Diffusion Coefficients in Mixtures"
   categories:
     - "Preprint"
+    - "first author"
+  data: BibInternal.Date("", "September", "2024")
   url: "http://arxiv.org/abs/2409.17615"
-- image: "publications/schmitt_molecular_2024.png"
+- image: "publications/images/schmitt_molecular_2024.svg"
   citation: "__S. Schmitt__, *PhD thesis*, RPTU University Kaiserslautern (2025)."
   doi: "10.26204/KLUEDO/8570"
-  title: "Molecular {Simulation} and {Entropy} {Scaling} {Modeling} of {Transport} {Properties}"
+  title: "Molecular Simulation and Entropy Scaling Modeling of Transport Properties"
   categories:
     - "PhD Thesis"
+    - "first author"
+  data: BibInternal.Date("", "", "2024")
   url: "https://kluedo.ub.rptu.de/frontdoor/index/index/docId/8570"
-- image: "publications/schmitt_extension_2023.png"
+- image: "publications/images/schmitt_extension_2023.svg"
   citation: "__S. Schmitt__, G. Kanagalingam, F. Fleckenstein, D. Froescher, H. Hasse, S. Stephan, *Journal of Chemical Information and Modeling* 63 (2023) 7148--7158."
   doi: "10.1021/acs.jcim.3c01484"
-  title: "Extension of the {MolMod} {Database} to {Transferable} {Force} {Fields}"
+  title: "Extension of the MolMod Database to Transferable Force Fields"
   categories:
     - "Journal Article"
+    - "first author"
+  data: BibInternal.Date("", "", "2023")
   url: "https://doi.org/10.1021/acs.jcim.3c01484"
-- image: "publications/kanagalingam_data_2023.png"
+- image: "publications/images/kanagalingam_data_2023.svg"
   citation: "G. Kanagalingam, __S. Schmitt__, F. Fleckenstein, S. Stephan, *Scientific Data* 10 (2023) 495."
   doi: "10.1038/s41597-023-02369-8"
   title: "Data scheme and data format for transferable force fields for molecular simulation"
   categories:
     - "Journal Article"
+  data: BibInternal.Date("", "July", "2023")
   url: "https://www.nature.com/articles/s41597-023-02369-8"
-- image: "publications/schmitt_molecular_2023.png"
+- image: "publications/images/schmitt_molecular_2023.svg"
   citation: "__S. Schmitt__, S. Stephan, B. Kirsch, J. Aurich, H. Urbassek, H. Hasse, In: *Proceedings of the 3rd {Conference} on {Physical} {Modeling} for {Virtual} {Manufacturing} {Systems} and {Processes}* (2023) 260--280."
   doi: "10.1007/978-3-031-35779-4_14"
-  title: "Molecular {Dynamics} {Simulation} of {Cutting} {Processes}: {The} {Influence} of {Cutting} {Fluids} at the {Atomistic} {Scale}"
+  title: "Molecular Dynamics Simulation of Cutting Processes: The Influence of Cutting Fluids at the Atomistic Scale"
   categories:
     - "Conference Proceedings"
+    - "first author"
+  data: BibInternal.Date("", "", "2023")
   url: ""
-- image: "publications/schmitt_comparison_2023.png"
+- image: "publications/images/schmitt_comparison_2023.svg"
   citation: "__S. Schmitt__, F. Fleckenstein, H. Hasse, S. Stephan, *The Journal of Physical Chemistry B* 127 (2023) 1789--1802."
   doi: "10.1021/acs.jpcb.2c07997"
   title: "Comparison of force fields for the prediction of thermophysical properties of long linear and branched alkanes"
   categories:
     - "Journal Article"
+    - "first author"
+  data: BibInternal.Date("", "February", "2023")
   url: "https://doi.org/10.1021/acs.jpcb.2c07997"
-- image: "publications/stephan_molecular_2023.png"
+- image: "publications/images/stephan_molecular_2023.svg"
   citation: "S. Stephan, __S. Schmitt__, H. Hasse, H. Urbassek, *Friction* 11 (2023) 2342--2366."
   doi: "10.1007/s40544-023-0745-y"
-  title: "Molecular dynamics simulation of the {Stribeck} curve: {Boundary} lubrication, mixed lubrication, and hydrodynamic lubrication on the atomistic level"
+  title: "Molecular dynamics simulation of the Stribeck curve: Boundary lubrication, mixed lubrication, and hydrodynamic lubrication on the atomistic level"
   categories:
     - "Journal Article"
+  data: BibInternal.Date("", "July", "2023")
   url: "https://link.springer.com/10.1007/s40544-023-0745-y"
-- image: "publications/wingertszahn_measurement_2023.png"
+- image: "publications/images/wingertszahn_measurement_2023.svg"
   citation: "P. Wingertszahn, __S. Schmitt__, S. Thielen, M. Oehler, B. Magyar, O. Koch, H. Hasse, S. Stephan, *Tribologie und Schmierungstechnik* 70 (2023) 5--12."
   doi: "10.24053/TuS-2023-0017"
   title: "Measurement, modelling, and application of lubricant properties at extreme pressures"
   categories:
     - "Journal Article"
+  data: BibInternal.Date("", "September", "2023")
   url: "https://elibrary.narr.digital/article/10.24053/TuS-2023-0017"
-- image: "publications/schmitt_molecular_2022.png"
+- image: "publications/images/schmitt_molecular_2022.svg"
   citation: "__S. Schmitt__, T. Vo, M. Lautenschlaeger, S. Stephan, H. Hasse, *Molecular Physics* 120 (2022) e2057364."
   doi: "10.1080/00268976.2022.2057364"
   title: "Molecular dynamics simulation study of heat transfer across solid-fluid interfaces in a simple model system"
   categories:
     - "Journal Article"
+    - "first author"
+  data: BibInternal.Date("", "April", "2022")
   url: "https://doi.org/10.1080/00268976.2022.2057364"
-- image: "publications/schmitt_molecular_2021.png"
+- image: "publications/images/schmitt_molecular_2021.svg"
   citation: "__S. Schmitt__, S. Stephan, B. Kirsch, J. Aurich, E. Kerscher, H. Urbassek, H. Hasse, *2nd International Conference of the DFG International Research Training Group 2057 – Physical Modeling for Virtual Manufacturing (iPMVM 2020)* 89 (2021) 17:1--17:16."
   doi: "10.4230/OASIcs.iPMVM.2020.17"
   title: "Molecular simulation study on the influence of the scratching velocity on nanoscopic contact processes"
   categories:
     - "Journal Article"
+    - "first author"
+  data: BibInternal.Date("", "", "2021")
   url: "https://drops.dagstuhl.de/opus/volltexte/2021/13766"

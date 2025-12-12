@@ -5,3 +5,6 @@
 **/*.quarto_ipynb
 _site
 _freeze
+
+# Julia
+Manifest.toml

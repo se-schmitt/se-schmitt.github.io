@@ -1,6 +1,7 @@
 using Printf: @sprintf
 using DocumenterCitations: CitationBibliography
 using YAML: write_file
+using Dates
 
 bib_file = "my_publications.bib"
 bib = CitationBibliography(bib_file)
@@ -39,14 +40,20 @@ for k in collect(keys(entries))[idx_sort]
     else
         error("No citation method for type '$(entry_i.type)'")
     end
+
+    month_i = isempty(entry_i.date.month) ? 1 : month(Date(entry_i.date.month, dateformat"U"))
+    date_i = join([entry_i.date.year,month_i,1],"-")
+
+    startswith(citation_i,"__S. Schmitt__") && push!(category_i, "first author")
     
     yml_i = Dict{String,Any}(
-        "title" => entry_i.title,
+        "title" => replace(entry_i.title,"{" => "", "}" => ""),
         "citation" => citation_i,
         "doi" => entry_i.access.doi,
         "categories" => category_i,
         "url" => entry_i.access.url,
-        "image" => "publications/$(k).png",
+        "image" => "publications/images/$(k).svg",
+        "data" => entry_i.date,
     )
     push!(yml, yml_i)
 end
