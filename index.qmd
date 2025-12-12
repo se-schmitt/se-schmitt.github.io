@@ -30,10 +30,10 @@ about:
       href: "https://orcid.org/0000-0001-7909-2945"
       aria-label: "ORCID logo"
       target: _blank
-    - text: '{{< iconify fa7-brands:linkedin title="LinkedIn logo" label="LinkedIn logo" >}}'
-      href: "https://www.linkedin.com/in/sebastian-schmitt-13432218a"
-      aria-label: "LinkedIn logo"
-      target: _blank
+    # - text: '{{< iconify fa7-brands:linkedin title="LinkedIn logo" label="LinkedIn logo" >}}'
+    #   href: "https://www.linkedin.com/in/sebastian-schmitt-13432218a"
+    #   aria-label: "LinkedIn logo"
+    #   target: _blank
 ---
 
 :::: {#edu-exp}

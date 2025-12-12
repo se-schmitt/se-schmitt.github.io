@@ -36,15 +36,15 @@ website:
       #   href: blog.qmd
       - text: Projects
         href: projects.qmd
-      - text: Talks
-        href: talks.qmd
+      # - text: Talks
+      #   href: talks.qmd
       - text: Publications
         href: publications.qmd
       - text: '{{< iconify fa7-solid:envelope title="Email" label="Email" >}}'
         href: "mailto:sebastian.schmitt@rptu.de"
         aria-label: "Envelope logo for email"
-      - text: '{{< iconify fa7-brands:linkedin title="LinkedIn" label="LinkedIn" >}}'
-        href: 'https://www.linkedin.com/in/mickaelcanouil'
+      # - text: '{{< iconify fa7-brands:linkedin title="LinkedIn" label="LinkedIn" >}}'
+      #   href: 'https://www.linkedin.com/in/mickaelcanouil'
       - text: '{{< iconify octicon:mark-github-16 title="GitHub" label="GitHub" >}}'
         href: "https://github.com/se-schmitt"
 
