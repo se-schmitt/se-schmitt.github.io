@@ -6,7 +6,7 @@ project:
 website:
   title: "Sebastian Schmitt"
   description: "Personal website of Sebastian Schmitt"
-  favicon: /assets/images/logo.svg
+  # favicon: /assets/images/logo.svg
   image: /assets/images/social-profile.png
   site-url: https://se-schmitt.github.io/
   open-graph: true
@@ -27,7 +27,7 @@ website:
     title: "Sebastian Schmitt"
     search: true
     background: dark
-    logo: assets/images/logo.svg
+    # logo: assets/images/logo.svg
     logo-alt: "Logo"
     right:
       - text: About
