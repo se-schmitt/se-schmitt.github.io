@@ -1,7 +1,7 @@
 ---
 title: "Sebastian Schmitt"
 subtitle: |
-  PostDoc in Thermodynamics
+  Postdoc in Thermodynamics
 image: /assets/images/profile.png
 format:
   html:
@@ -92,15 +92,34 @@ Some text...
 - Open Source Contributions
 - Cinephile
 
-## {{< iconify octicon:mortar-board-24 >}} Education {.education}
+## {{< iconify octicon:log-24 >}} Experience {.education}
 
-- **_Ph.D._ in Biostatistics**, **2017**  
-  *University of Lille, France*
+- **Postdoc and Group Leader**, **since 02/2025**  
+  *Laboratory of Engineering Thermodynamics (LTD), RPTU University Kaiserslautern, Germany*
 
-- **_M.Sc._ in Biostatistics, Bioinformatics and Genomics** (*Specialised in Biostatistics*), **2011**  
-  *University Claude Bernard Lyon 1, France*
+- **Visiting Researcher**, **10/2025 -- 12/2025**  
+  *JuliaLab, CSAIL, Massachusetts Institute of Technology (MIT), USA*
 
-- **_B.Sc._ in Biology** (*Specialised in Biostatistics*), **2009**  
-  *University Claude Bernard Lyon 1, France*
+- **Scientific Associate**, **06/2019 -- 09/2019**  
+  *Laboratory of Engineering Thermodynamics (LTD), RPTU University Kaiserslautern, Germany*
+
+- **Visiting PhD Student**, **06/2022 -- 09/2022**  
+  *[IRTG 2057](https://www.irtg2057.de/), UC Berkeley, USA*
+
+- **Visiting Student**, **10/2016 -- 04/2017**  
+  *Jianghan University, Wuhan, China*
+
+### Education 
+
+- **_Ph.D._ in Thermodynamics**, **2024**  
+  *RPTU University Kaiserslautern, Germany*
+
+  Thesis: [Molecular Simulation and Entropy Scaling Modeling of Transport Properties](https://kluedo.ub.rptu.de/frontdoor/index/index/docId/8570)
+
+- **_M.Sc._ Computational Engineering**, **2019**  
+  *TU Kaiserslautern, Germany*
+
+- **_B.Sc._ in Mechanical Engineering**, **2017**  
+  *TU Kaiserslautern, Germany*
 
 :::
