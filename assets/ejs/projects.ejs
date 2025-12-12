@@ -36,36 +36,14 @@
 :::: {.listing-description}
 <%= item.description %>
 :::
-
-:::: {.listing-modal}
-<%
-const usage = item.usage;
-const id = utils.b64encode(usage);
-if (usage) {
-%>
-```{=html}
-<button type="button" class="btn btn-outline-light" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#installModal-<%= id %>">Install</button>
-<%
-if (item.template === true) {
-%>
-<button type="button" class="btn btn-outline-light" style="text-align: center;" data-bs-toggle="modal" data-bs-target="#useModal-<%= id %>">Use</button>
-<%
-}
-%>
-```
-<%
-}
-%>
-:::
-
-:::
-
 :::
 
 :::: {.card-footer}
 :::: {.listing-date}
-<%= item.date %>
+*Role: <%= item.role %>*
 :::
+:::
+
 :::
 
 :::
@@ -76,15 +54,3 @@ if (item.template === true) {
 
 :::
 
-<% for (const item of items) { %>
-<%
-const usage = item.usage;
-if (usage) {
-const id = utils.b64encode(usage);
-partial("extension-install-modal.ejs", { id, usage });
-if (item.template === true) {
-partial("extension-use-modal.ejs", { id, usage });
-}
-}
-%>
-<% } %>

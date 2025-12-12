@@ -17,12 +17,12 @@ listing:
       language: en-gb
     contents:
 
-      - path: https://github.com/mcanouil/quarto-revealjs-tabset
-        image: /projects/quarto-extension.png
-        title: "Tabset"
-        description: 'Quarto extension enabling proper tabset navigation with keyboard controls and PDF export support for Reveal.js presentations'
-        date: "2025-11-24"
-        categories: [Quarto, Extension, Reveal.js, Tabset, Navigation]
-        usage: mcanouil/quarto-revealjs-tabset@latest
+      - path: https://github.com/se-schmitt/EntropyScaling.jl
+        image: /projects/EntropyScaling_jl.svg
+        title: "EntropyScaling.jl"
+        description: 'Julia package for modeling transport properties based on entropy scaling'
+        # date: "2025-11-24"
+        role: Maintainer
+        categories: [Julia Language, Thermodynamics, Transport Properties]
 
 ---
