@@ -1,5 +1,5 @@
 ---
-title: "Sebastian Schmitt"
+title: Sebastian Schmitt
 subtitle: |
   Postdoc in Thermodynamics and ML
 image: /assets/images/profile.png
@@ -42,7 +42,8 @@ about:
 :::: {.about-body}
 
 I am a postoctoral researcher working at the interface between **_machine learning (ML)_** and **_molecular thermodynamics_**. 
-My research interests are the development of physically consistent thermodynamic models leveraging new ML methods as well as the development of thermodynamic open source libraries in the Julia language.
+My primary research interest is the formulation of physically consistent thermodynamic models leveraging new ML methods. 
+I also focus on the implementation of thermodynamic open source libraries in the Julia language -- including the new ML models.
 
 ## {{< iconify octicon:star-24 >}} Interests {.interests}
 
