@@ -2,7 +2,6 @@
 title: "Projects"
 title-block-banner: true
 image: /assets/images/social-profile.png
-subtitle: "*[{{< iconify fa7-solid:square-rss >}} RSS Feed](projects.xml)*"
 listing:
   - id: projects
     template: assets/ejs/projects.ejs
@@ -20,9 +19,15 @@ listing:
       - path: https://github.com/se-schmitt/EntropyScaling.jl
         image: /projects/EntropyScaling_jl.svg
         title: "EntropyScaling.jl"
-        description: 'Julia package for modeling transport properties based on entropy scaling'
-        # date: "2025-11-24"
+        description: 'Julia package for modeling transport properties based on entropy scaling enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients'
         role: Maintainer
-        categories: [Julia Language, Thermodynamics, Transport Properties]
+        categories: [JuliaLang, Thermodynamics, Transport Properties]
+
+      - path: https://github.com/ClapeyronThermo/Clapeyron.jl
+        image: /projects/Clapeyron_jl.svg
+        title: "Clapeyron.jl"
+        description: 'Extensive thermodynamic library written in the Julia language including thermodynamic property solvers and a large variety of different models'
+        role: Contributor
+        categories: [JuliaLang, Thermodynamics]
 
 ---
