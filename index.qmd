@@ -1,7 +1,7 @@
 ---
 title: "Sebastian Schmitt"
 subtitle: |
-  Postdoc in Thermodynamics
+  Postdoc in Thermodynamics and ML
 image: /assets/images/profile.png
 format:
   html:
@@ -41,56 +41,17 @@ about:
 
 :::: {.about-body}
 
-I am a consultant in __*Biostatistics*__ and a __*freelance*__ developer specialising in the Quarto and R ecosystems.  
-I combine expertise in genetics and multi-omics analysis with open-source development, bridging academic/private research with practical tool creation.
-
-:::: {.highlight}
-
-This is something that should be highlighted.
-
-:::
-
-More text.
-
-:::: {.light-content}
-
-This is some text in light theme
-
-:::
-
-:::: {.dark-content}
-
-This is some text in dark theme
-
-:::
-
-## {{< iconify octicon:briefcase-24 >}} What I Do
-
-Some text...
-
-## {{< iconify octicon:beaker-24 >}} Research & Publications
-
-This is sth to hover[^example] to get more information
-
-[^example]: Eventually shown text.
-
-## {{< iconify octicon:code-24 >}} Open Source Contributions
-
-Some text...
-
-...
+I am a postoctoral researcher working at the interface between **_machine learning (ML)_** and **_molecular thermodynamics_**. 
+My research interests are the development of physically consistent thermodynamic models leveraging new ML methods as well as the development of thermodynamic open source libraries in the Julia language.
 
 ## {{< iconify octicon:star-24 >}} Interests {.interests}
 
-- Quarto Extensions
-- Multi-omics Data Analysis
-- Longitudinal & Mixed Models
-- Data Visualisation & Storytelling
-- R Package Development
-- Reproducible Research
-- Statistical Genetics
-- Open Source Contributions
-- Cinephile
+- Thermodynamics
+- Machine Learning
+- Julia Language
+- Transport Properties
+- Molecular Simulations
+- Open Source Software
 
 ## {{< iconify octicon:log-24 >}} Experience {.education}
 
