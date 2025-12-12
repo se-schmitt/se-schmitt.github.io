@@ -16,6 +16,7 @@ listing:
       language: en-gb
     contents:
 
+        title: Entropy scaling for diffusion coefficients in fluid mixtures
         citation: __S. Schmitt__, H. Hasse, S. Stephan, *Nature Communications* 16 (2025) 2611.
         journal: Nature Communications
         doi: 10.1038/s41467-025-57780-z
