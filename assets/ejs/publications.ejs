@@ -18,8 +18,6 @@
 
 :::: {.card-body .post-contents}
 
-[{{< iconify octicon:mark-github-16 title="GitHub Repository" label="GitHub Repository" >}}](<%- item.path || item.url %>){#github-link .quarto-grid-link style="position: absolute; top: 0; right: 0; padding: 0.5em;"}
-
 ```{=html}
 <a class="quarto-grid-link" href="<%- item.path || item.url %>">
   <h5 class="no-anchor card-title listing-title"><%= item.title %></h5>
@@ -38,7 +36,7 @@
 
 :::: {.card-text}
 :::: {.listing-description}
-<%= item.abstract %>
+<%= item.citation %>
 :::
 
 :::
@@ -46,9 +44,7 @@
 :::
 
 :::: {.card-footer}
-:::: {.listing-date}
-<%= item.date %>
-:::
+DOI: <%= item.doi %>
 :::
 
 :::
