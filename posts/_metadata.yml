@@ -8,9 +8,8 @@ freeze: true
 title-block-banner: true
 
 author:
-  - name: "Mickaël CANOUIL, _Ph.D._"
-    orcid: "0000-0002-3396-4549"
-    url: "https://mickael.canouil.fr"
+  - name: "Sebastian Schmitt"
+    orcid: "XXXX-XXXX-XXX"
 
 toc: true
 number-sections: true

@@ -19,7 +19,7 @@ about:
       href: "mailto:sebastian.schmitt@rptu.de"
       aria-label: "Envelope logo for email"
     - text: '{{< iconify octicon:mark-github-16 title="GitHub logo" label="GitHub logo" >}}'
-      href: "https://github.com/mcanouil"
+      href: "https://github.com/se-schmitt"
       aria-label: "GitHub logo"
       target: _blank
     - text: '{{< iconify academicons:google-scholar title="Google Scholar" label="Google Scholar" >}}'
