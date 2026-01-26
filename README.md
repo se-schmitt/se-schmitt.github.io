@@ -1,8 +1,7 @@
 # Website *Sebastian Schmitt*
 
-## Todos before Publishing
+www.se-schmitt.github.io
 
-- [ ] adjust colors
-- [ ] profile picture
-- [ ] search for remainders from template website
-- [ ] let Babette review ;)
+Publish: 
+
+https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
