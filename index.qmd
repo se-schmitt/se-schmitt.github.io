@@ -50,9 +50,9 @@ I also focus on the implementation of thermodynamic open source libraries in the
 - Thermodynamics
 - Machine Learning
 - Julia Language
+- Equations of State (EOS)
 - Transport Properties
 - Molecular Simulations
-- Open Source Software
 
 ## {{< iconify octicon:log-24 >}} Experience {.education}
 
