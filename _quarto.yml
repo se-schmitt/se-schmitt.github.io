@@ -96,4 +96,4 @@ format:
 lightbox: auto
 
 execute:
-  freeze: true
+  freeze: auto
