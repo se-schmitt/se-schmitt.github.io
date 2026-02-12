@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Example Talk\n\n\nA short description of the talk\n\n\n\n\n\nWednesday, the 8th of October, 2025\n\n\nSebastian Schmitt\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "EntropyScaling.jl\n\n\n\nJuliaLang\n\nThermodynamics\n\nTransport Properties\n\n\n\n\nJulia package for modeling transport properties based on entropy scaling enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients\n\n\n\n\nRole: Maintainer\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Clapeyron.jl\n\n\n\nJuliaLang\n\nThermodynamics\n\n\n\n\nExtensive thermodynamic library written in the Julia language including thermodynamic property solvers and a large variety of different models\n\n\n\n\nRole: Contributor\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "posts/2020-05-06-example/index.html",
+    "href": "posts/2020-05-06-example/index.html",
+    "title": "Example Blog Post",
+    "section": "",
+    "text": "Example blog post\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Sebastian Schmitt",
+    "section": " Interests",
+    "text": "Interests\n\nThermodynamics\nMachine Learning\nJulia Language\nEquations of State (EOS)\nTransport Properties\nMolecular Simulations"
+  },
+  {
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Sebastian Schmitt",
+    "section": " Experience",
+    "text": "Experience\n\nPostdoc and Group Leader “Machine Learning in Thermodynamics”, since 02/2025\nLaboratory of Engineering Thermodynamics (LTD), RPTU Kaiserslautern, Germany\nVisiting Researcher, 10/2025 – 12/2025\nJuliaLab, CSAIL, Massachusetts Institute of Technology (MIT), USA\nScientific Associate, 06/2019 – 09/2019\nLaboratory of Engineering Thermodynamics (LTD), RPTU Kaiserslautern, Germany\nVisiting PhD Student, 06/2022 – 09/2022\nIRTG 2057, UC Berkeley, USA\nVisiting Student, 10/2016 – 04/2017\nJianghan University, Wuhan, China"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Sebastian Schmitt",
+    "section": " Education",
+    "text": "Education\n\nPh.D. in Thermodynamics, 2024\nRPTU University Kaiserslautern, Germany\nThesis: Molecular Simulation and Entropy Scaling Modeling of Transport Properties\nM.Sc. Computational Engineering, 2019\nTU Kaiserslautern, Germany\nB.Sc. in Mechanical Engineering, 2017\nTU Kaiserslautern, Germany"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Example Blog Post\n\n\n\nExample\n\nJulia\n\n\n\nSome description of the blogpost\n\n\n\n\n\nWednesday, the 6th of May, 2020\n\n\nSebastian Schmitt\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Entropy scaling for diffusion coefficients in fluid mixtures\n\n\n\nJournal Article\n\nfirst author\n\n\n\n\nS. Schmitt, H. Hasse, S. Stephan, Nature Communications 16 (2025) 2611.\n\n\n\n\nDOI: 10.1038/s41467-025-57780-z\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Measurements and Entropy Scaling of the Viscosity of 1-Octanol at Pressures up to 600 MPa\n\n\n\nJournal Article\n\n\n\n\nD. Alt, S. Schmitt, H. Hasse, S. Stephan, International Journal of Thermophysics 46 (2025) 137.\n\n\n\n\nDOI: 10.1007/s10765-025-03612-7\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Diffusion coefficients in mixtures of poly(oxymethylene) dimethyl ethers with alkanes\n\n\n\nJournal Article\n\n\n\n\nS. Mross, S. Schmitt, S. Stephan, K. Münnemann, H. Hasse, Industrial & Engineering Chemistry Research 63 (2024) 1662–1669.\n\n\n\n\nDOI: 10.1021/acs.iecr.3c03839\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Measurements and Equation of State Modeling of the Density of Five 1-Alcohols (C6–C10) at Pressures of up to 120 MPa\n\n\n\nJournal Article\n\nfirst author\n\n\n\n\nS. Schmitt, H. Hasse, S. Stephan, Journal of Chemical & Engineering Data 69 (2024) 2967–2983.\n\n\n\n\nDOI: 10.1021/acs.jced.4c00265\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Explosions of nanodroplets studied with molecular dynamics simulations\n\n\n\nJournal Article\n\n\n\n\nD. Schaefer, B. Kunstmann, S. Schmitt, H. Hasse, M. Kohns, Physics of Fluids 36 (2024) 037129.\n\n\n\n\nDOI: 10.1063/5.0190455\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Entropy scaling framework for transport properties using molecular-based equations of state\n\n\n\nJournal Article\n\nfirst author\n\n\n\n\nS. Schmitt, H. Hasse, S. Stephan, Journal of Molecular Liquids 395 (2024) 123811.\n\n\n\n\nDOI: 10.1016/j.molliq.2023.123811\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Entropy Scaling for Diffusion Coefficients in Mixtures\n\n\n\nPreprint\n\nfirst author\n\n\n\n\nS. Schmitt, H. Hasse, S. Stephan, arXiv (2024).\n\n\n\n\nDOI: 10.48550/arXiv.2409.17615\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Molecular Simulation and Entropy Scaling Modeling of Transport Properties\n\n\n\nPhD Thesis\n\nfirst author\n\n\n\n\nS. Schmitt, PhD thesis, RPTU University Kaiserslautern (2025).\n\n\n\n\nDOI: 10.26204/KLUEDO/8570\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Extension of the MolMod Database to Transferable Force Fields\n\n\n\nJournal Article\n\nfirst author\n\n\n\n\nS. Schmitt, G. Kanagalingam, F. Fleckenstein, D. Froescher, H. Hasse, S. Stephan, Journal of Chemical Information and Modeling 63 (2023) 7148–7158.\n\n\n\n\nDOI: 10.1021/acs.jcim.3c01484\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Data scheme and data format for transferable force fields for molecular simulation\n\n\n\nJournal Article\n\n\n\n\nG. Kanagalingam, S. Schmitt, F. Fleckenstein, S. Stephan, Scientific Data 10 (2023) 495.\n\n\n\n\nDOI: 10.1038/s41597-023-02369-8\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Molecular Dynamics Simulation of Cutting Processes: The Influence of Cutting Fluids at the Atomistic Scale\n\n\n\nConference Proceedings\n\nfirst author\n\n\n\n\nS. Schmitt, S. Stephan, B. Kirsch, J. Aurich, H. Urbassek, H. Hasse, In: Proceedings of the 3rd {Conference} on {Physical} {Modeling} for {Virtual} {Manufacturing} {Systems} and {Processes} (2023) 260–280.\n\n\n\n\nDOI: 10.1007/978-3-031-35779-4_14\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Comparison of force fields for the prediction of thermophysical properties of long linear and branched alkanes\n\n\n\nJournal Article\n\nfirst author\n\n\n\n\nS. Schmitt, F. Fleckenstein, H. Hasse, S. Stephan, The Journal of Physical Chemistry B 127 (2023) 1789–1802.\n\n\n\n\nDOI: 10.1021/acs.jpcb.2c07997\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Molecular dynamics simulation of the Stribeck curve: Boundary lubrication, mixed lubrication, and hydrodynamic lubrication on the atomistic level\n\n\n\nJournal Article\n\n\n\n\nS. Stephan, S. Schmitt, H. Hasse, H. Urbassek, Friction 11 (2023) 2342–2366.\n\n\n\n\nDOI: 10.1007/s40544-023-0745-y\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Measurement, modelling, and application of lubricant properties at extreme pressures\n\n\n\nJournal Article\n\n\n\n\nP. Wingertszahn, S. Schmitt, S. Thielen, M. Oehler, B. Magyar, O. Koch, H. Hasse, S. Stephan, Tribologie und Schmierungstechnik 70 (2023) 5–12.\n\n\n\n\nDOI: 10.24053/TuS-2023-0017\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Molecular dynamics simulation study of heat transfer across solid-fluid interfaces in a simple model system\n\n\n\nJournal Article\n\nfirst author\n\n\n\n\nS. Schmitt, T. Vo, M. Lautenschlaeger, S. Stephan, H. Hasse, Molecular Physics 120 (2022) e2057364.\n\n\n\n\nDOI: 10.1080/00268976.2022.2057364\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Molecular simulation study on the influence of the scratching velocity on nanoscopic contact processes\n\n\n\nJournal Article\n\nfirst author\n\n\n\n\nS. Schmitt, S. Stephan, B. Kirsch, J. Aurich, E. Kerscher, H. Urbassek, H. Hasse, 2nd International Conference of the DFG International Research Training Group 2057 – Physical Modeling for Virtual Manufacturing (iPMVM 2020) 89 (2021) 17:1–17:16.\n\n\n\n\nDOI: 10.4230/OASIcs.iPMVM.2020.17\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "talks/2025-10-08-example-talk/index.html",
+    "href": "talks/2025-10-08-example-talk/index.html",
+    "title": "Example Talk",
+    "section": "",
+    "text": "The slides…\n\n\n\n Back to top"
+  }
+]

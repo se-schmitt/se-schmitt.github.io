@@ -1,0 +1,22 @@
+[
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/2025-10-08-example-talk/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/2020-05-06-example/index.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": []
+  }
+]

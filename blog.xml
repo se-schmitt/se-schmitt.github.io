@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Sebastian Schmitt</title>
+<link>https://se-schmitt.github.io/blog.html</link>
+<atom:link href="https://se-schmitt.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Personal website of Sebastian Schmitt</description>
+<language>en-gb</language>
+<image>
+<url>https://se-schmitt.github.io/assets/images/social-profile.png</url>
+<title>Sebastian Schmitt</title>
+<link>https://se-schmitt.github.io/blog.html</link>
+</image>
+<generator>quarto-1.8.26</generator>
+<lastBuildDate>Tue, 05 May 2020 22:00:00 GMT</lastBuildDate>
+<item>
+  <title>Example Blog Post</title>
+  <dc:creator>Sebastian Schmitt</dc:creator>
+  <link>https://se-schmitt.github.io/posts/2020-05-06-example/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+<p>Example blog post</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Example</category>
+  <category>Julia</category>
+  <guid>https://se-schmitt.github.io/posts/2020-05-06-example/</guid>
+  <pubDate>Tue, 05 May 2020 22:00:00 GMT</pubDate>
+  <media:content url="https://se-schmitt.github.io/posts/2020-05-06-example/featured.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>
