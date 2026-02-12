@@ -15,8 +15,8 @@
 <title>Sebastian Schmitt</title>
 <link>https://se-schmitt.github.io/projects.html</link>
 </image>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Thu, 12 Feb 2026 21:39:45 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Thu, 12 Feb 2026 21:42:18 GMT</lastBuildDate>
 <item>
   <title>EntropyScaling.jl</title>
   <link>https://se-schmitt.github.io/</link>
@@ -25,7 +25,7 @@
   <category>Thermodynamics</category>
   <category>Transport Properties</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Thu, 12 Feb 2026 21:39:45 GMT</pubDate>
+  <pubDate>Thu, 12 Feb 2026 21:42:18 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/EntropyScaling_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -35,7 +35,7 @@
   <category>JuliaLang</category>
   <category>Thermodynamics</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Thu, 12 Feb 2026 21:39:45 GMT</pubDate>
+  <pubDate>Thu, 12 Feb 2026 21:42:18 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/Clapeyron_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>

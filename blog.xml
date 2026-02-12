@@ -15,8 +15,8 @@
 <title>Sebastian Schmitt</title>
 <link>https://se-schmitt.github.io/blog.html</link>
 </image>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Tue, 05 May 2020 22:00:00 GMT</lastBuildDate>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Wed, 06 May 2020 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Example Blog Post</title>
   <dc:creator>Sebastian Schmitt</dc:creator>
@@ -36,7 +36,7 @@
   <category>Example</category>
   <category>Julia</category>
   <guid>https://se-schmitt.github.io/posts/2020-05-06-example/</guid>
-  <pubDate>Tue, 05 May 2020 22:00:00 GMT</pubDate>
+  <pubDate>Wed, 06 May 2020 00:00:00 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/posts/2020-05-06-example/featured.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
