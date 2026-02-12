@@ -41,9 +41,9 @@ about:
 
 :::: {.about-body}
 
-I am a postoctoral researcher working at the interface between **_machine learning (ML)_** and **_molecular thermodynamics_**. 
-My primary research interest is the formulation of physically consistent thermodynamic models leveraging new ML methods. 
-I also focus on the implementation of thermodynamic open source libraries in the Julia language -- including the new ML models.
+I am a postoctoral researcher working on the formulation of hybrid thermodynamic models that combine **_physical knowledge_** with new methods from **_machine learning (ML)_**. 
+THe main focus hereby is are new fundamental equations of state (EOS) and transport property models for pure fluids and mixtures.
+As important part of this work, I'm engaged in the developement of thermodynamic open source libraries in the Julia language -- including the new machine learning models (see Projects).
 
 ## {{< iconify octicon:star-24 >}} Interests {.interests}
 
@@ -56,14 +56,14 @@ I also focus on the implementation of thermodynamic open source libraries in the
 
 ## {{< iconify octicon:log-24 >}} Experience {.education}
 
-- **Postdoc and Group Leader**, **since 02/2025**  
-  *Laboratory of Engineering Thermodynamics (LTD), RPTU University Kaiserslautern, Germany*
+- **Postdoc and Group Leader "Machine Learning in Thermodynamics"**, **since 02/2025**  
+  *[Laboratory of Engineering Thermodynamics (LTD)](https://mv.rptu.de/en/dpts/ltd), RPTU Kaiserslautern, Germany*
 
 - **Visiting Researcher**, **10/2025 -- 12/2025**  
-  *JuliaLab, CSAIL, Massachusetts Institute of Technology (MIT), USA*
+  *[JuliaLab](https://julia.mit.edu/), CSAIL, Massachusetts Institute of Technology (MIT), USA*
 
 - **Scientific Associate**, **06/2019 -- 09/2019**  
-  *Laboratory of Engineering Thermodynamics (LTD), RPTU University Kaiserslautern, Germany*
+  *[Laboratory of Engineering Thermodynamics (LTD)](https://mv.rptu.de/en/dpts/ltd), RPTU Kaiserslautern, Germany*
 
 - **Visiting PhD Student**, **06/2022 -- 09/2022**  
   *[IRTG 2057](https://www.irtg2057.de/), UC Berkeley, USA*
@@ -71,7 +71,7 @@ I also focus on the implementation of thermodynamic open source libraries in the
 - **Visiting Student**, **10/2016 -- 04/2017**  
   *Jianghan University, Wuhan, China*
 
-### Education 
+## {{< iconify octicon:mortar-board-24 >}} Education {.education}
 
 - **_Ph.D._ in Thermodynamics**, **2024**  
   *RPTU University Kaiserslautern, Germany*
