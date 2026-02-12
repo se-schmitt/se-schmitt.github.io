@@ -1,0 +1,28 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+author:
+  - name: "Sebastian Schmitt"
+    orcid: "0000-0001-7909-2945"
+    url: "https://se-schmitt.github.io"
+
+# Enable banner style title blocks
+title-block-banner: true
+title-block-published: "Event date"
+title-block-affiliation-single: "Location"
+
+toc: true
+number-sections: true
+
+knitr:
+  opts_chunk: 
+    collapse: true
+    comment: "#>"
+    fig-align: "center"
+
+execute: 
+  warning: false
+  message: false

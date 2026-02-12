@@ -1,30 +1,99 @@
 project:
   type: website
+  resources:
+    - _headers
 
-# website:
-  # title: "website"
-  # navbar:
-  #   left:
-  #     - href: index.qmd
-  #       text: Home
+website:
+  title: "Sebastian Schmitt"
+  description: "Personal website of Sebastian Schmitt"
+  # favicon: /assets/images/logo.svg
+  image: /assets/images/social-profile.png
+  site-url: https://se-schmitt.github.io/
+  open-graph: true
+  twitter-card: false
+  page-navigation: true
+  back-to-top-navigation: true
+  page-footer:
+    border: true
+    left: |
+      Powered by [{{< iconify simple-icons:quarto title="Quarto Logo" label="Quarto Logo" >}} Quarto](https://quarto.org).
+    center: |
+      &copy; []{#current-year} Sebastian Schmitt. 
+
+      Template adapted from [Mickaël Canouil](https://mickael.canouil.fr/).
+    right: |
+      License: [CC BY NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0).
+  navbar:
+    title: "Sebastian Schmitt"
+    search: true
+    background: dark
+    # logo: assets/images/logo.svg
+    logo-alt: "Logo"
+    right:
+      - text: About
+        href: index.qmd
+      # - text: Blog
+      #   href: blog.qmd
+      - text: Projects
+        href: projects.qmd
+      # - text: Talks
+      #   href: talks.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: '{{< iconify fa7-solid:envelope title="Email" label="Email" >}}'
+        href: "mailto:sebastian.schmitt@rptu.de"
+        aria-label: "Envelope logo for email"
+      - text: '{{< iconify octicon:mark-github-16 title="GitHub" label="GitHub" >}}'
+        href: "https://github.com/se-schmitt"
 
 format:
-  html:
-    toc-location: right
+  html: 
+    grid:
+      body-width: 1000px
     theme:
-      dark: 
-        - solar
-        - brand.scss
-      light: 
+      light:
         - cosmo
-        - brand.scss
-    css: styles.css
-    toc: true
-    include-in-header:
-      - text: |
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css">
+        - brand
+        - assets/stylesheets/theme.scss
+        - assets/stylesheets/projects.scss
+      dark:
+        - cosmo
+        - brand
+        - assets/stylesheets/dark.scss
+        - assets/stylesheets/theme.scss
+        - assets/stylesheets/projects.scss
+    lang: en-GB
+    date-format: 'dddd[, the] Do [of] MMMM, YYYY'
+    highlight-style:
+      light: github
+      dark: dracula
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    anchor-sections: true
+    email-obfuscation: javascript
+    link-external-newwindow: true
+    fig-align: center
+    code-tools:
+      source: false
+      toggle: false
+      caption: none
     include-after-body:
-      - mobile-toc.html
+      - file: assets/scripts/ordinal-dates.html
+      - file: assets/scripts/current-year.html
+      - file: assets/scripts/categories-alphabetical.html
+      - file: assets/scripts/modal-clipboardjs.html
+      - text: |
+          <script>
+            document.querySelectorAll('header#title-block-header div, header#title-block-header p').forEach(function(el) {
+              if (!el.textContent.trim()) {
+                el.style.display = 'none';
+                el.textContent = "";
+              }
+            });
+          </script>
 
+lightbox: auto
 
-
+execute:
+  freeze: true

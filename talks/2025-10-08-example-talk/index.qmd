@@ -1,0 +1,21 @@
+---
+image: featured.png
+title: Example Talk
+author:
+  - name: "Sebastian Schmitt"
+    orcid: "0000-0002-3396-4549"
+    url: "https://se-schmitt.github.io"
+    affiliations:
+      - Laboratory of Engineering Thermodynamics (LTD), RPTU University Kaiserslautern
+description: |
+  A short description of the talk
+abstract: |
+  The abstract of the talk.
+date: "2025-10-08"
+categories:
+  - example
+  - thermodynamics
+  - julia
+---
+
+The slides...

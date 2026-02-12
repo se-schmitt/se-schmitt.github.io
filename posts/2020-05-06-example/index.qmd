@@ -1,0 +1,12 @@
+---
+title: "Example Blog Post"
+description: "Some description of the blogpost"
+date: "2020-05-06"
+categories: [Example, Julia]
+image: featured.png
+aliases:
+  - /post/ggpacman/index.html
+  - /post/ggpacman.html
+---
+
+Example blog post

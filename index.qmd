@@ -1,66 +1,87 @@
 ---
-title: "Sebastian Schmitt"
-image: images/profile.jpg
-about:
-  template: trestles
-  image-shape: rounded
-  image-width: 10em
-  links:
-    - text: "<i class='ai ai-google-scholar'></i> Scholar"
-      href: https://scholar.google.com/citations?user=9h1daswAAAAJ&hl=de
-    - text: Github
-      href: https://github.com/se-schmitt
-      icon: github
-    - text: Email
-      href: mailto:sebastian.schmitt@rptu.de
-      icon: envelope
+title: Sebastian Schmitt
+subtitle: |
+  Postdoc in Thermodynamics and ML
+image: /assets/images/profile.png
+format:
+  html:
+    grid:
+      body-width: 800px
 editor:
-    render-on-save: true
+  render-on-save: true
+about:
+  id: edu-exp
+  template: solana
+  image-width: 9em
+  image-shape: round
+  links:
+    - text: '{{< iconify fa7-solid:envelope title="Envelope logo for email" label="Envelope logo for email" >}}'
+      href: "mailto:sebastian.schmitt@rptu.de"
+      aria-label: "Envelope logo for email"
+    - text: '{{< iconify octicon:mark-github-16 title="GitHub logo" label="GitHub logo" >}}'
+      href: "https://github.com/se-schmitt"
+      aria-label: "GitHub logo"
+      target: _blank
+    - text: '{{< iconify academicons:google-scholar title="Google Scholar" label="Google Scholar" >}}'
+      href: "https://scholar.google.com/citations?user=9h1daswAAAAJ&hl"
+      aria-label: "Google Scholar"
+      target: _blank
+    - text: '{{< iconify fa7-brands:orcid title="ORCID logo" label="ORCID logo" >}}'
+      href: "https://orcid.org/0000-0001-7909-2945"
+      aria-label: "ORCID logo"
+      target: _blank
+    # - text: '{{< iconify fa7-brands:linkedin title="LinkedIn logo" label="LinkedIn logo" >}}'
+    #   href: "https://www.linkedin.com/in/sebastian-schmitt-13432218a"
+    #   aria-label: "LinkedIn logo"
+    #   target: _blank
 ---
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, ...
+:::: {#edu-exp}
+:::
 
-## Bio
+:::: {.about-body}
 
-Postdoc researcher...
+I am a postoctoral researcher working on the formulation of hybrid thermodynamic models that combine **_physical knowledge_** with new methods from **_machine learning (ML)_**. 
+THe main focus hereby is are new fundamental equations of state (EOS) and transport property models for pure fluids and mixtures.
+As important part of this work, I'm engaged in the developement of thermodynamic open source libraries in the Julia language -- including the new machine learning models (see Projects).
 
-## CV
+## {{< iconify octicon:star-24 >}} Interests {.interests}
 
-### Education
+- Thermodynamics
+- Machine Learning
+- Julia Language
+- Equations of State (EOS)
+- Transport Properties
+- Molecular Simulations
 
-*   **PhD in Physics**, University of Somewhere, 2020
-*   **MSc in Physics**, University of Somewhere, 2016
+## {{< iconify octicon:log-24 >}} Experience {.education}
 
-### Experience
+- **Postdoc and Group Leader "Machine Learning in Thermodynamics"**, **since 02/2025**  
+  *[Laboratory of Engineering Thermodynamics (LTD)](https://mv.rptu.de/en/dpts/ltd), RPTU Kaiserslautern, Germany*
 
-*   **Postdoc**, University of X, 2020-Present
+- **Visiting Researcher**, **10/2025 -- 12/2025**  
+  *[JuliaLab](https://julia.mit.edu/), CSAIL, Massachusetts Institute of Technology (MIT), USA*
 
-## Publications
+- **Scientific Associate**, **06/2019 -- 09/2019**  
+  *[Laboratory of Engineering Thermodynamics (LTD)](https://mv.rptu.de/en/dpts/ltd), RPTU Kaiserslautern, Germany*
 
-### 2023
+- **Visiting PhD Student**, **06/2022 -- 09/2022**  
+  *[IRTG 2057](https://www.irtg2057.de/), UC Berkeley, USA*
 
-*   **Paper Title**, Journal Name.
+- **Visiting Student**, **10/2016 -- 04/2017**  
+  *Jianghan University, Wuhan, China*
 
-### 2022
+## {{< iconify octicon:mortar-board-24 >}} Education {.education}
 
-*   **Another Paper**, Conference Name.
+- **_Ph.D._ in Thermodynamics**, **2024**  
+  *RPTU University Kaiserslautern, Germany*
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+  Thesis: [Molecular Simulation and Entropy Scaling Modeling of Transport Properties](https://kluedo.ub.rptu.de/frontdoor/index/index/docId/8570)
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+- **_M.Sc._ Computational Engineering**, **2019**  
+  *TU Kaiserslautern, Germany*
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+- **_B.Sc._ in Mechanical Engineering**, **2017**  
+  *TU Kaiserslautern, Germany*
 
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
-
-Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+:::

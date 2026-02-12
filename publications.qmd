@@ -1,0 +1,18 @@
+---
+title: "Publications"
+title-block-banner: true
+image: /assets/images/social-profile.png
+listing:
+  - id: publications
+    template: assets/ejs/publications.ejs
+    categories: false
+    sort-ui: false
+    sort: "date desc"
+    filter-ui: true
+    max-description-length: 300
+    page-size: 18
+    fields: [image, title, author, date, journal, categories]
+    feed:
+      language: en-gb
+    contents: /publications/my_publications.yml
+---

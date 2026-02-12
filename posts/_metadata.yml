@@ -1,0 +1,36 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+author:
+  - name: "Sebastian Schmitt"
+    orcid: "XXXX-XXXX-XXX"
+
+toc: true
+number-sections: true
+back-to-top-navigation: true
+
+comments:
+  giscus:
+    mapping: title
+    theme:
+      dark: dark_dimmed
+      light: light
+    repo: "{{GISCUS_REPO}}"
+    repo-id: "{{GISCUS_REPO_ID}}"
+    category: "{{GISCUS_CATEGORY}}"
+    category-id: "{{GISCUS_CATEGORY_ID}}"
+
+knitr:
+  opts_chunk:
+    collapse: true
+    comment: "#>"
+
+execute:
+  warning: false
+  message: false
