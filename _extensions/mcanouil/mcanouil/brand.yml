@@ -21,10 +21,10 @@ color:
     light: "#333333"
 typography:
   fonts:
-    - family: Alegreya Sans
+    - family: Roboto
       source: google
-  base: Alegreya Sans
-  headings: Alegreya Sans
+  base: Roboto
+  headings: Roboto
   link:
     color: foreground
 defaults:
