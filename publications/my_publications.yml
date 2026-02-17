@@ -85,7 +85,7 @@
   data: BibInternal.Date("", "July", "2023")
   url: "https://www.nature.com/articles/s41597-023-02369-8"
 - image: "publications/images/schmitt_molecular_2023.svg"
-  citation: "__S. Schmitt__, S. Stephan, B. Kirsch, J. Aurich, H. Urbassek, H. Hasse, In: *Proceedings of the 3rd {Conference} on {Physical} {Modeling} for {Virtual} {Manufacturing} {Systems} and {Processes}* (2023) 260--280."
+  citation: "__S. Schmitt__, S. Stephan, B. Kirsch, J. Aurich, H. Urbassek, H. Hasse, In: *Proceedings of the 3rd Conference on Physical Modeling for Virtual Manufacturing Systems and Processes* (2023) 260--280."
   doi: "10.1007/978-3-031-35779-4_14"
   title: "Molecular Dynamics Simulation of Cutting Processes: The Influence of Cutting Fluids at the Atomistic Scale"
   categories:

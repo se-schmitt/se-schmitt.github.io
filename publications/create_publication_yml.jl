@@ -47,8 +47,8 @@ for k in collect(keys(entries))[idx_sort]
     startswith(citation_i,"__S. Schmitt__") && push!(category_i, "first author")
     
     yml_i = Dict{String,Any}(
-        "title" => replace(entry_i.title,"{" => "", "}" => ""),
-        "citation" => citation_i,
+        "title" => replace(entry_i.title, "{" => "", "}" => ""),
+        "citation" => replace(citation_i, "{" => "", "}" => ""),
         "doi" => entry_i.access.doi,
         "categories" => category_i,
         "url" => entry_i.access.url,
