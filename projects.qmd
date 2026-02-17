@@ -30,4 +30,11 @@ listing:
         role: Contributor
         categories: [JuliaLang, Thermodynamics]
 
+      - path: https://pypi.org/project/pyclapeyron/
+        image: /projects/pyclapeyron.svg
+        title: "pyclapeyron"
+        description: 'Python wrapper for Clapeyron.jl.'
+        role: Maintainer
+        categories: [Python, Thermodynamics]
+
 ---
