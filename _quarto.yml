@@ -51,15 +51,15 @@ format:
     grid:
       body-width: 1000px
     theme:
-      light:
-        - cosmo
-        - brand
-        - assets/stylesheets/theme.scss
-        - assets/stylesheets/projects.scss
       dark:
         - cosmo
         - brand
         - assets/stylesheets/dark.scss
+        - assets/stylesheets/theme.scss
+        - assets/stylesheets/projects.scss
+      light:
+        - cosmo
+        - brand
         - assets/stylesheets/theme.scss
         - assets/stylesheets/projects.scss
     lang: en-GB
