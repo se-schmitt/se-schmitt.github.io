@@ -41,9 +41,9 @@ about:
 
 :::: {.about-body}
 
-I am a postoctoral researcher working on the formulation of hybrid thermodynamic models that combine **_physical knowledge_** with new methods from **_machine learning (ML)_**. 
-THe main focus hereby is are new fundamental equations of state (EOS) and transport property models for pure fluids and mixtures.
-As important part of this work, I'm engaged in the developement of thermodynamic open source libraries in the Julia language -- including the new machine learning models (see Projects).
+I am a postdoctoral researcher working on hybrid thermodynamic models that combine **_physical knowledge_** with **_machine learning (ML)_**. 
+My main focus is on new fundamental equations of state (EOS) and transport property models for pure fluids and mixtures.
+As an integral part of this work, I contribute to the development of thermodynamic open-source libraries in the Julia language -- including the new machine learning models (see Projects).
 
 ## {{< iconify octicon:star-24 >}} Interests {.interests}
 
