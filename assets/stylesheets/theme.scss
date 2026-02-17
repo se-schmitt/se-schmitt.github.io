@@ -899,6 +899,18 @@ main a:not(.nav-link):not(.btn):not(.about-link):not(.listing-category):not(.qua
     em {
       color: rgba($foreground, 0.75);
     }
+
+    a {
+      color: rgba($foreground, 0.85);
+      text-decoration: underline;
+      text-decoration-color: rgba($foreground, 0.3);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 2px;
+
+      &:hover {
+        text-decoration-color: rgba($foreground, 0.7);
+      }
+    }
   }
 }
 
