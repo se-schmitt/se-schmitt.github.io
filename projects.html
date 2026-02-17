@@ -41,12 +41,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-8b4baf804e461d9b72633f0de59a0cac.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2ff81c2e5dfd9e56c4f590b9591e1eb8.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-8b4baf804e461d9b72633f0de59a0cac.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2d6b6925aa2e47953bb1150d9352a55e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-e05d041215403d9e6af19b1bd7936a97.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-2d6b6925aa2e47953bb1150d9352a55e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b1fdf4dbf59a4a74ec8f7f9739e1ce60.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-46631d9015b4356c15c0752f30a991fe.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -140,7 +138,7 @@ window.Quarto = {
 <meta property="og:site_name" content="Sebastian Schmitt">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -282,10 +280,8 @@ window.Quarto = {
         changeGiscusTheme();
       }
     };
-    const authorPrefersDark = false;
+    const authorPrefersDark = true;
     const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
     let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
     // Dark / light mode switch
     window.quartoToggleColorScheme = () => {
@@ -396,7 +392,7 @@ window.Quarto = {
 </a>
 </div>
 <div class="card-body post-contents">
-<p><a href="https://github.com/se-schmitt/EntropyScaling.jl" id="github-link" class="quarto-grid-link" style="position: absolute; top: 0; right: 0; padding: 0.5em;"><iconify-icon role="img" inline="" icon="octicon:mark-github-16" aria-label="GitHub Repository" title="GitHub Repository"></iconify-icon></a></p>
+<!-- [](https://github.com/se-schmitt/EntropyScaling.jl){#github-link .quarto-grid-link style="position: absolute; top: 0; right: 0; padding: 0.5em;"} -->
 <a class="quarto-grid-link" href="https://github.com/se-schmitt/EntropyScaling.jl">
   <h5 class="no-anchor card-title listing-title">EntropyScaling.jl</h5>
 </a>
@@ -414,11 +410,11 @@ window.Quarto = {
 <p>Julia package for modeling transport properties based on entropy scaling enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients</p>
 </div>
 </div>
-<div class="card-footer">
-<div class="listing-date">
-<p><em>Role: Maintainer</em></p>
-</div>
-</div>
+<!-- :::: {.card-footer}
+:::: {.listing-date}
+*Role: Maintainer*
+:::
+::: -->
 </div>
 </div>
 </div>
@@ -430,7 +426,7 @@ window.Quarto = {
 </a>
 </div>
 <div class="card-body post-contents">
-<p><a href="https://github.com/ClapeyronThermo/Clapeyron.jl" id="github-link" class="quarto-grid-link" style="position: absolute; top: 0; right: 0; padding: 0.5em;"><iconify-icon role="img" inline="" icon="octicon:mark-github-16" aria-label="GitHub Repository" title="GitHub Repository"></iconify-icon></a></p>
+<!-- [](https://github.com/ClapeyronThermo/Clapeyron.jl){#github-link .quarto-grid-link style="position: absolute; top: 0; right: 0; padding: 0.5em;"} -->
 <a class="quarto-grid-link" href="https://github.com/ClapeyronThermo/Clapeyron.jl">
   <h5 class="no-anchor card-title listing-title">Clapeyron.jl</h5>
 </a>
@@ -446,11 +442,43 @@ window.Quarto = {
 <p>Extensive thermodynamic library written in the Julia language including thermodynamic property solvers and a large variety of different models</p>
 </div>
 </div>
-<div class="card-footer">
-<div class="listing-date">
-<p><em>Role: Contributor</em></p>
+<!-- :::: {.card-footer}
+:::: {.listing-date}
+*Role: Contributor*
+:::
+::: -->
 </div>
 </div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="2" data-categories="UHl0aG9uJTJDVGhlcm1vZHluYW1pY3M=">
+<div class="quarto-grid-item card h-100 card-center projects">
+<div class="card-img-top">
+<a href="https://pypi.org/project/pyclapeyron/">
+  <img src="./projects/pyclapeyron.svg" class="thumbnail-image card-img" loading="lazy" alt="pyclapeyron">
+</a>
+</div>
+<div class="card-body post-contents">
+<!-- [](https://pypi.org/project/pyclapeyron/){#github-link .quarto-grid-link style="position: absolute; top: 0; right: 0; padding: 0.5em;"} -->
+<a class="quarto-grid-link" href="https://pypi.org/project/pyclapeyron/">
+  <h5 class="no-anchor card-title listing-title">pyclapeyron</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGhlcm1vZHluYW1pY3M='); return false;">Thermodynamics</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p>Python wrapper for Clapeyron.jl.</p>
+</div>
+</div>
+<!-- :::: {.card-footer}
+:::: {.listing-date}
+*Role: Maintainer*
+:::
+::: -->
 </div>
 </div>
 </div>
