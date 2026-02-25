@@ -4,8 +4,10 @@
     "items": []
   },
   {
-    "listing": "/projects.html",
-    "items": []
+    "listing": "/talks.html",
+    "items": [
+      "/talks/2025-10-08-example-talk/index.html"
+    ]
   },
   {
     "listing": "/blog.html",
@@ -14,9 +16,7 @@
     ]
   },
   {
-    "listing": "/talks.html",
-    "items": [
-      "/talks/2025-10-08-example-talk/index.html"
-    ]
+    "listing": "/projects.html",
+    "items": []
   }
 ]
