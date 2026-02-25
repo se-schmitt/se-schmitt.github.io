@@ -1,3 +1,11 @@
+- image: "publications/images/hasse_artificial_2026.svg"
+  citation: "H. Hasse, __S. Schmitt__, F. Jirasek, *Current Opinion in Chemical Engineering* 51 (2026) 101236."
+  doi: "10.1016/j.coche.2026.101236"
+  title: "Artificial intelligence in thermodynamics: hybrid modeling of thermophysical properties of fluids"
+  categories:
+    - "Journal Article"
+  data: BibInternal.Date("", "", "2026")
+  url: "https://www.sciencedirect.com/science/article/pii/S2211339826000110"
 - image: "publications/images/schmitt_entropy_2025.svg"
   citation: "__S. Schmitt__, H. Hasse, S. Stephan, *Nature Communications* 16 (2025) 2611."
   doi: "10.1038/s41467-025-57780-z"
