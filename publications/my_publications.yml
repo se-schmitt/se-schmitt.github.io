@@ -6,6 +6,14 @@
     - "Journal Article"
   data: BibInternal.Date("", "", "2026")
   url: "https://www.sciencedirect.com/science/article/pii/S2211339826000110"
+- image: "publications/images/wagner_hybrid_2026.svg"
+  citation: "J. Wagner, Z. Romero, K. Münnemann, __S. Schmitt__, T. Specht, H. Hasse, F. Jirasek, *arXiv* (2026)."
+  doi: "10.48550/arXiv.2603.02761"
+  title: "Hybrid Machine Learning for Enhanced Prediction of Diffusion Coefficients in Liquids"
+  categories:
+    - "Preprint"
+  data: BibInternal.Date("", "March", "2026")
+  url: "http://arxiv.org/abs/2603.02761"
 - image: "publications/images/schmitt_entropy_2025.svg"
   citation: "__S. Schmitt__, H. Hasse, S. Stephan, *Nature Communications* 16 (2025) 2611."
   doi: "10.1038/s41467-025-57780-z"
