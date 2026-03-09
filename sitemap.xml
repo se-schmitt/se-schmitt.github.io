@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://se-schmitt.github.io/talks/2025-10-08-example-talk/index.html</loc>
-    <lastmod>2026-02-25T16:00:13.119Z</lastmod>
-  </url>
-  <url>
     <loc>https://se-schmitt.github.io/publications.html</loc>
-    <lastmod>2026-02-25T16:00:13.077Z</lastmod>
-  </url>
-  <url>
-    <loc>https://se-schmitt.github.io/posts/2020-05-06-example/index.html</loc>
-    <lastmod>2026-02-25T16:00:13.073Z</lastmod>
-  </url>
-  <url>
-    <loc>https://se-schmitt.github.io/index.html</loc>
-    <lastmod>2026-02-25T16:00:13.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://se-schmitt.github.io/talks.html</loc>
-    <lastmod>2026-02-25T16:00:13.119Z</lastmod>
-  </url>
-  <url>
-    <loc>https://se-schmitt.github.io/blog.html</loc>
-    <lastmod>2026-02-25T16:00:13.072Z</lastmod>
+    <lastmod>2026-03-09T21:12:56.190Z</lastmod>
   </url>
   <url>
     <loc>https://se-schmitt.github.io/projects.html</loc>
-    <lastmod>2026-02-25T16:00:13.076Z</lastmod>
+    <lastmod>2026-03-09T21:12:56.189Z</lastmod>
+  </url>
+  <url>
+    <loc>https://se-schmitt.github.io/posts/2020-05-06-example/index.html</loc>
+    <lastmod>2026-03-09T21:12:56.186Z</lastmod>
+  </url>
+  <url>
+    <loc>https://se-schmitt.github.io/index.html</loc>
+    <lastmod>2026-03-09T21:12:56.185Z</lastmod>
+  </url>
+  <url>
+    <loc>https://se-schmitt.github.io/blog.html</loc>
+    <lastmod>2026-03-09T21:12:56.185Z</lastmod>
+  </url>
+  <url>
+    <loc>https://se-schmitt.github.io/talks.html</loc>
+    <lastmod>2026-03-09T21:12:56.232Z</lastmod>
+  </url>
+  <url>
+    <loc>https://se-schmitt.github.io/talks/2025-10-08-example-talk/index.html</loc>
+    <lastmod>2026-03-09T21:12:56.233Z</lastmod>
   </url>
 </urlset>

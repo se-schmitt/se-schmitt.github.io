@@ -16,7 +16,7 @@
 <link>https://se-schmitt.github.io/projects.html</link>
 </image>
 <generator>quarto-1.8.27</generator>
-<lastBuildDate>Wed, 25 Feb 2026 16:00:32 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Mar 2026 21:13:17 GMT</lastBuildDate>
 <item>
   <title>EntropyScaling.jl</title>
   <link>https://se-schmitt.github.io/</link>
@@ -25,7 +25,7 @@
   <category>Thermodynamics</category>
   <category>Transport Properties</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Wed, 25 Feb 2026 16:00:32 GMT</pubDate>
+  <pubDate>Mon, 09 Mar 2026 21:13:17 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/EntropyScaling_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -35,7 +35,7 @@
   <category>JuliaLang</category>
   <category>Thermodynamics</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Wed, 25 Feb 2026 16:00:32 GMT</pubDate>
+  <pubDate>Mon, 09 Mar 2026 21:13:17 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/Clapeyron_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -45,7 +45,7 @@
   <category>Python</category>
   <category>Thermodynamics</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Wed, 25 Feb 2026 16:00:32 GMT</pubDate>
+  <pubDate>Mon, 09 Mar 2026 21:13:17 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/pyclapeyron.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
