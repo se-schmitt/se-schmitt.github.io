@@ -23,6 +23,13 @@ listing:
         role: Maintainer
         categories: [JuliaLang, Thermodynamics, Transport Properties]
 
+      - path: https://github.com/se-schmitt/MLThermoProperties.jl
+        image: /projects/MLThermoProperties_jl.svg
+        title: "MLThermoProperties.jl"
+        description: 'Implementation of hybrid ML models for thermodynamic property prediction'
+        role: Maintainer
+        categories: [JuliaLang, Thermodynamics, Machine Learning]
+
       - path: https://github.com/ClapeyronThermo/Clapeyron.jl
         image: /projects/Clapeyron_jl.svg
         title: "Clapeyron.jl"
