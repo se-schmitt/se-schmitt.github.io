@@ -11,7 +11,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "EntropyScaling.jl\n\n\n\nJuliaLang\n\nThermodynamics\n\nTransport Properties\n\n\n\n\nJulia package for modeling transport properties based on entropy scaling enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Clapeyron.jl\n\n\n\nJuliaLang\n\nThermodynamics\n\n\n\n\nExtensive thermodynamic library written in the Julia language including thermodynamic property solvers and a large variety of different models\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  pyclapeyron\n\n\n\nPython\n\nThermodynamics\n\n\n\n\nPython wrapper for Clapeyron.jl.\n\n\n\n\n\n\n\nNo matching items\n Back to top"
+    "text": "EntropyScaling.jl\n\n\n\nJuliaLang\n\nThermodynamics\n\nTransport Properties\n\n\n\n\nJulia package for modeling transport properties based on entropy scaling enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  MLThermoProperties.jl\n\n\n\nJuliaLang\n\nThermodynamics\n\nMachine Learning\n\n\n\n\nImplementation of hybrid ML models for thermodynamic property prediction\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  Clapeyron.jl\n\n\n\nJuliaLang\n\nThermodynamics\n\n\n\n\nExtensive thermodynamic library written in the Julia language including thermodynamic property solvers and a large variety of different models\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n  pyclapeyron\n\n\n\nPython\n\nThermodynamics\n\n\n\n\nPython wrapper for Clapeyron.jl.\n\n\n\n\n\n\n\nNo matching items\n Back to top"
   },
   {
     "objectID": "posts/2020-05-06-example/index.html",
@@ -21,22 +21,22 @@
     "text": "Example blog post\n\n\n\n Back to top"
   },
   {
-    "objectID": "index.html#interests",
-    "href": "index.html#interests",
+    "objectID": "index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2069636f6e696679206f637469636f6e3a737461722d3234203e7d7d-interests",
+    "href": "index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2069636f6e696679206f637469636f6e3a737461722d3234203e7d7d-interests",
     "title": "Sebastian Schmitt",
     "section": " Interests",
     "text": "Interests\n\nThermodynamics\nMachine Learning\nJulia Language\nEquations of State (EOS)\nTransport Properties\nMolecular Simulations"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2069636f6e696679206f637469636f6e3a6c6f672d3234203e7d7d-experience",
+    "href": "index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2069636f6e696679206f637469636f6e3a6c6f672d3234203e7d7d-experience",
     "title": "Sebastian Schmitt",
     "section": " Experience",
     "text": "Experience\n\nPostdoc and Group Leader “Machine Learning in Thermodynamics”, since 02/2025\nLaboratory of Engineering Thermodynamics (LTD), RPTU Kaiserslautern, Germany\nVisiting Researcher, 10/2025 – 12/2025\nJuliaLab, CSAIL, Massachusetts Institute of Technology (MIT), USA\nScientific Associate, 06/2019 – 09/2019\nLaboratory of Engineering Thermodynamics (LTD), RPTU Kaiserslautern, Germany\nVisiting PhD Student, 06/2022 – 09/2022\nIRTG 2057, UC Berkeley, USA\nVisiting Student, 10/2016 – 04/2017\nJianghan University, Wuhan, China"
   },
   {
-    "objectID": "index.html#education",
-    "href": "index.html#education",
+    "objectID": "index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2069636f6e696679206f637469636f6e3a6d6f727461722d626f6172642d3234203e7d7d-education",
+    "href": "index.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2069636f6e696679206f637469636f6e3a6d6f727461722d626f6172642d3234203e7d7d-education",
     "title": "Sebastian Schmitt",
     "section": " Education",
     "text": "Education\n\nPh.D. in Thermodynamics, 2024\nRPTU University Kaiserslautern, Germany\nThesis: Molecular Simulation and Entropy Scaling Modeling of Transport Properties\nM.Sc. Computational Engineering, 2019\nTU Kaiserslautern, Germany\nB.Sc. Mechanical Engineering, 2017\nTU Kaiserslautern, Germany"
