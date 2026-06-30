@@ -62,7 +62,7 @@ As an integral part of this work, I contribute to the development of thermodynam
 - **Visiting Researcher**, **10/2025 -- 12/2025**  
   *[JuliaLab](https://julia.mit.edu/), CSAIL, Massachusetts Institute of Technology (MIT), USA*
 
-- **Scientific Associate**, **06/2019 -- 09/2019**  
+- **Scientific Associate**, **06/2019 -- 09/2024**  
   *[Laboratory of Engineering Thermodynamics (LTD)](https://mv.rptu.de/en/dpts/ltd), RPTU Kaiserslautern, Germany*
 
 - **Visiting PhD Student**, **06/2022 -- 09/2022**  
