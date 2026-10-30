@@ -44,4 +44,18 @@ listing:
         role: Maintainer
         categories: [Python, Thermodynamics]
 
+      - path: https://github.com/se-schmitt/BatchDistillation.jl
+        image: /projects/BatchDistillation_jl.svg
+        title: "BatchDistillation.jl"
+        description: 'Julia code to simulate dynamic batch distillation processes using Clapeyron.jl and MLThermoProperties as thermo backend'
+        role: Maintainer
+        categories: [JuliaLang, Process Simulation]
+
+      - path: https://github.com/se-schmitt/QMThermoProperties.jl
+        image: /projects/github.svg
+        title: "QMThermoProperties.jl"
+        description: 'Small Julia package to calculate thermodynamic properties based on quantum mechanical (QM) calculations from the CHAOS database'
+        role: Maintainer
+        categories: [JuliaLang, Thermodynamics]
+
 ---
