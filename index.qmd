@@ -41,7 +41,8 @@ about:
 
 :::: {.about-body}
 
-I am a postdoctoral researcher working on hybrid thermodynamic models that combine **_physical knowledge_** with **_machine learning (ML)_**. 
+I am a researcher at the Laboratory of Engineering Thermodynamics of RPTU Kaiserslautern.
+I combine **_physical knowledge_** with **_machine learning (ML)_** to build hybrid thermodynamic models and apply these new models in chemical process simulations.
 My main focus is on new fundamental equations of state (EOS) and transport property models for pure fluids and mixtures.
 As an integral part of this work, I contribute to the development of thermodynamic open-source libraries in the Julia language -- including the new machine learning models (see Projects).
 
