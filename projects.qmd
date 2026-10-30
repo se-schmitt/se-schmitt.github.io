@@ -19,7 +19,7 @@ listing:
       - path: https://github.com/se-schmitt/EntropyScaling.jl
         image: /projects/EntropyScaling_jl.svg
         title: "EntropyScaling.jl"
-        description: 'Julia package for modeling transport properties based on entropy scaling enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients'
+        description: 'Julia package for modeling transport properties based on entropy scaling, enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients'
         role: Maintainer
         categories: [JuliaLang, Thermodynamics, Transport Properties]
 
@@ -33,21 +33,21 @@ listing:
       - path: https://github.com/ClapeyronThermo/Clapeyron.jl
         image: /projects/Clapeyron_jl.svg
         title: "Clapeyron.jl"
-        description: 'Extensive thermodynamic library written in the Julia language including thermodynamic property solvers and a large variety of different models'
+        description: 'Extensive thermodynamic library written in the Julia language, including thermodynamic property solvers and a large variety of different models'
         role: Contributor
         categories: [JuliaLang, Thermodynamics]
 
       - path: https://pypi.org/project/pyclapeyron/
         image: /projects/pyclapeyron.svg
         title: "pyclapeyron"
-        description: 'Python wrapper for Clapeyron.jl.'
+        description: 'Python wrapper for Clapeyron.jl'
         role: Maintainer
         categories: [Python, Thermodynamics]
 
       - path: https://github.com/se-schmitt/BatchDistillation.jl
         image: /projects/BatchDistillation_jl.svg
         title: "BatchDistillation.jl"
-        description: 'Julia code to simulate dynamic batch distillation processes using Clapeyron.jl and MLThermoProperties as thermo backend'
+        description: 'Julia code to simulate dynamic batch distillation processes using Clapeyron.jl and MLThermoProperties.jl as thermodynamic backends'
         role: Maintainer
         categories: [JuliaLang, Process Simulation]
 
