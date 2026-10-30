@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,12 +44,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de63f62b328812d8e578a4d74e282472.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-ccafe2c99a4564d55934ca8539ca9f46.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-29e00c98bbba659d91ab3844292f79dc.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0f0a8b16379d91c323ecdea24b8d3ffc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-707fadffeab047f47ad597f082d55a3f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-0deadae3921d51c29caeffa8b5018226.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-1183cf4bd75bdf4970ff65c99157927f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-67483534006b6911339d885677a3c49f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -86,8 +89,9 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-image','listing-title','listing-author','listing-date','listing-journal','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-image","listing-citation","listing-doi","listing-title","listing-categories","listing-data","listing-url"],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-citation","listing-doi","listing-categories","listing-url","listing-image","listing-data"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -106,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -390,14 +394,14 @@ window.Quarto = {
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
-<a href="https://www.sciencedirect.com/science/article/pii/S2211339826000110">
-  <img src="publications/images/hasse_artificial_2026.svg" class="thumbnail-image card-img" loading="lazy" alt="Artificial intelligence in thermodynamics: hybrid modeling of thermophysical properties of fluids">
+<a href="https://doi.org/10.1039/d6cp00793g">
+  <img src="publications/images/wagner_hybrid_2026-1.svg" class="thumbnail-image card-img" loading="lazy" alt="Hybrid machine learning for enhanced prediction of diffusion coefficients in liquids">
 </a>
 </div>
 
 <div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://www.sciencedirect.com/science/article/pii/S2211339826000110">
-  <h5 class="no-anchor card-title listing-title">Artificial intelligence in thermodynamics: hybrid modeling of thermophysical properties of fluids</h5>
+<a class="quarto-grid-link" href="https://doi.org/10.1039/d6cp00793g">
+  <h5 class="no-anchor card-title listing-title">Hybrid machine learning for enhanced prediction of diffusion coefficients in liquids</h5>
 </a>
 <div class="listing-categories">
 
@@ -406,16 +410,45 @@ window.Quarto = {
 </div>
 <div class="card-text">
 <div class="listing-description">
-<p>H. Hasse, <strong>S. Schmitt</strong>, F. Jirasek, <em>Current Opinion in Chemical Engineering</em> 51 (2026) 101236.</p>
+<p>J. Wagner, Z. Romero, K. Münnemann, <strong>S. Schmitt</strong>, T. Specht, H. Hasse, F. Jirasek, <em>Physical Chemistry Chemical Physics</em> 28 (2026) 25407–25416.</p>
 </div>
 </div>
 </div>
 <div class="card-footer">
-<p>DOI: 10.1016/j.coche.2026.101236</p>
+<p>DOI: 10.1039/d6cp00793g</p>
 </div>
 </div>
 </div>
 <div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="1" data-categories="UHJlcHJpbnQ=">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="http://arxiv.org/abs/2610.36440">
+  <img src="publications/images/hoffmann_learning_2026.svg" class="thumbnail-image card-img" loading="lazy" alt="Learning atomic interactions for the thermodynamics of liquid mixtures">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="http://arxiv.org/abs/2610.36440">
+  <h5 class="no-anchor card-title listing-title">Learning atomic interactions for the thermodynamics of liquid mixtures</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJlcHJpbnQ='); return false;">Preprint</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p>M. Hoffmann, <strong>S. Schmitt</strong>, H. Hasse, F. Jirasek, <em>arXiv</em> (2026).</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.48550/arXiv.2610.36440</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="2" data-categories="UHJlcHJpbnQ=">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
@@ -444,7 +477,65 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="2" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="3" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="https://www.sciencedirect.com/science/article/pii/S2211339826000110">
+  <img src="publications/images/hasse_artificial_2026.svg" class="thumbnail-image card-img" loading="lazy" alt="Artificial intelligence in thermodynamics: hybrid modeling of thermophysical properties of fluids">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="https://www.sciencedirect.com/science/article/pii/S2211339826000110">
+  <h5 class="no-anchor card-title listing-title">Artificial intelligence in thermodynamics: hybrid modeling of thermophysical properties of fluids</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p>H. Hasse, <strong>S. Schmitt</strong>, F. Jirasek, <em>Current Opinion in Chemical Engineering</em> 51 (2026) 101236.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1016/j.coche.2026.101236</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="4" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="https://doi.org/10.1007/s10765-025-03612-7">
+  <img src="publications/images/alt_measurements_2025.svg" class="thumbnail-image card-img" loading="lazy" alt="Measurements and Entropy Scaling of the Viscosity of 1-Octanol at Pressures up to 600 MPa">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="https://doi.org/10.1007/s10765-025-03612-7">
+  <h5 class="no-anchor card-title listing-title">Measurements and Entropy Scaling of the Viscosity of 1-Octanol at Pressures up to 600 MPa</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p>D. Alt, <strong>S. Schmitt</strong>, H. Hasse, S. Stephan, <em>International Journal of Thermophysics</em> 46 (2025) 137.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1007/s10765-025-03612-7</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="5" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
@@ -475,156 +566,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="3" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
-<div class="quarto-grid-item card h-100 card-center projects">
-
-<div class="card-img-top">
-<a href="https://doi.org/10.1007/s10765-025-03612-7">
-  <img src="publications/images/alt_measurements_2025.svg" class="thumbnail-image card-img" loading="lazy" alt="Measurements and Entropy Scaling of the Viscosity of 1-Octanol at Pressures up to 600 MPa">
-</a>
-</div>
-
-<div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://doi.org/10.1007/s10765-025-03612-7">
-  <h5 class="no-anchor card-title listing-title">Measurements and Entropy Scaling of the Viscosity of 1-Octanol at Pressures up to 600 MPa</h5>
-</a>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-</div>
-<div class="card-text">
-<div class="listing-description">
-<p>D. Alt, <strong>S. Schmitt</strong>, H. Hasse, S. Stephan, <em>International Journal of Thermophysics</em> 46 (2025) 137.</p>
-</div>
-</div>
-</div>
-<div class="card-footer">
-<p>DOI: 10.1007/s10765-025-03612-7</p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="4" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
-<div class="quarto-grid-item card h-100 card-center projects">
-
-<div class="card-img-top">
-<a href="https://doi.org/10.1021/acs.iecr.3c03839">
-  <img src="publications/images/mross_diffusion_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Diffusion coefficients in mixtures of poly(oxymethylene) dimethyl ethers with alkanes">
-</a>
-</div>
-
-<div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://doi.org/10.1021/acs.iecr.3c03839">
-  <h5 class="no-anchor card-title listing-title">Diffusion coefficients in mixtures of poly(oxymethylene) dimethyl ethers with alkanes</h5>
-</a>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-</div>
-<div class="card-text">
-<div class="listing-description">
-<p>S. Mross, <strong>S. Schmitt</strong>, S. Stephan, K. Münnemann, H. Hasse, <em>Industrial &amp; Engineering Chemistry Research</em> 63 (2024) 1662–1669.</p>
-</div>
-</div>
-</div>
-<div class="card-footer">
-<p>DOI: 10.1021/acs.iecr.3c03839</p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="5" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
-<div class="quarto-grid-item card h-100 card-center projects">
-
-<div class="card-img-top">
-<a href="">
-  <img src="publications/images/schmitt_measurements_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Measurements and Equation of State Modeling of the Density of Five 1-Alcohols (C6–C10) at Pressures of up to 120 MPa">
-</a>
-</div>
-
-<div class="card-body post-contents">
-<a class="quarto-grid-link" href="">
-  <h5 class="no-anchor card-title listing-title">Measurements and Equation of State Modeling of the Density of Five 1-Alcohols (C6–C10) at Pressures of up to 120 MPa</h5>
-</a>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
-
-</div>
-<div class="card-text">
-<div class="listing-description">
-<p><strong>S. Schmitt</strong>, H. Hasse, S. Stephan, <em>Journal of Chemical &amp; Engineering Data</em> 69 (2024) 2967–2983.</p>
-</div>
-</div>
-</div>
-<div class="card-footer">
-<p>DOI: 10.1021/acs.jced.4c00265</p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="6" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
-<div class="quarto-grid-item card h-100 card-center projects">
-
-<div class="card-img-top">
-<a href="https://doi.org/10.1063/5.0190455">
-  <img src="publications/images/schaefer_explosions_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Explosions of nanodroplets studied with molecular dynamics simulations">
-</a>
-</div>
-
-<div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://doi.org/10.1063/5.0190455">
-  <h5 class="no-anchor card-title listing-title">Explosions of nanodroplets studied with molecular dynamics simulations</h5>
-</a>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-</div>
-<div class="card-text">
-<div class="listing-description">
-<p>D. Schaefer, B. Kunstmann, <strong>S. Schmitt</strong>, H. Hasse, M. Kohns, <em>Physics of Fluids</em> 36 (2024) 037129.</p>
-</div>
-</div>
-</div>
-<div class="card-footer">
-<p>DOI: 10.1063/5.0190455</p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="7" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
-<div class="quarto-grid-item card h-100 card-center projects">
-
-<div class="card-img-top">
-<a href="https://linkinghub.elsevier.com/retrieve/pii/S0167732223026181">
-  <img src="publications/images/schmitt_entropy_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Entropy scaling framework for transport properties using molecular-based equations of state">
-</a>
-</div>
-
-<div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://linkinghub.elsevier.com/retrieve/pii/S0167732223026181">
-  <h5 class="no-anchor card-title listing-title">Entropy scaling framework for transport properties using molecular-based equations of state</h5>
-</a>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
-
-</div>
-<div class="card-text">
-<div class="listing-description">
-<p><strong>S. Schmitt</strong>, H. Hasse, S. Stephan, <em>Journal of Molecular Liquids</em> 395 (2024) 123811.</p>
-</div>
-</div>
-</div>
-<div class="card-footer">
-<p>DOI: 10.1016/j.molliq.2023.123811</p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="8" data-categories="UHJlcHJpbnQlMkNmaXJzdCUyMGF1dGhvcg==">
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="6" data-categories="UHJlcHJpbnQlMkNmaXJzdCUyMGF1dGhvcg==">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
@@ -655,7 +597,127 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="9" data-categories="UGhEJTIwVGhlc2lzJTJDZmlyc3QlMjBhdXRob3I=">
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="7" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="">
+  <img src="publications/images/schmitt_measurements_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Measurements and Equation of State Modeling of the Density of Five 1-Alcohols (C6–C10) at Pressures of up to 120 MPa">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="">
+  <h5 class="no-anchor card-title listing-title">Measurements and Equation of State Modeling of the Density of Five 1-Alcohols (C6–C10) at Pressures of up to 120 MPa</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p><strong>S. Schmitt</strong>, H. Hasse, S. Stephan, <em>Journal of Chemical &amp; Engineering Data</em> 69 (2024) 2967–2983.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1021/acs.jced.4c00265</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="8" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="https://doi.org/10.1063/5.0190455">
+  <img src="publications/images/schaefer_explosions_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Explosions of nanodroplets studied with molecular dynamics simulations">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="https://doi.org/10.1063/5.0190455">
+  <h5 class="no-anchor card-title listing-title">Explosions of nanodroplets studied with molecular dynamics simulations</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p>D. Schaefer, B. Kunstmann, <strong>S. Schmitt</strong>, H. Hasse, M. Kohns, <em>Physics of Fluids</em> 36 (2024) 037129.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1063/5.0190455</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="9" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="https://linkinghub.elsevier.com/retrieve/pii/S0167732223026181">
+  <img src="publications/images/schmitt_entropy_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Entropy scaling framework for transport properties using molecular-based equations of state">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="https://linkinghub.elsevier.com/retrieve/pii/S0167732223026181">
+  <h5 class="no-anchor card-title listing-title">Entropy scaling framework for transport properties using molecular-based equations of state</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p><strong>S. Schmitt</strong>, H. Hasse, S. Stephan, <em>Journal of Molecular Liquids</em> 395 (2024) 123811.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1016/j.molliq.2023.123811</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="10" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="https://doi.org/10.1021/acs.iecr.3c03839">
+  <img src="publications/images/mross_diffusion_2024.svg" class="thumbnail-image card-img" loading="lazy" alt="Diffusion coefficients in mixtures of poly(oxymethylene) dimethyl ethers with alkanes">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="https://doi.org/10.1021/acs.iecr.3c03839">
+  <h5 class="no-anchor card-title listing-title">Diffusion coefficients in mixtures of poly(oxymethylene) dimethyl ethers with alkanes</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p>S. Mross, <strong>S. Schmitt</strong>, S. Stephan, K. Münnemann, H. Hasse, <em>Industrial &amp; Engineering Chemistry Research</em> 63 (2024) 1662–1669.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1021/acs.iecr.3c03839</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="11" data-categories="UGhEJTIwVGhlc2lzJTJDZmlyc3QlMjBhdXRob3I=">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
@@ -686,38 +748,36 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="10" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="12" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
-<a href="https://doi.org/10.1021/acs.jcim.3c01484">
-  <img src="publications/images/schmitt_extension_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Extension of the MolMod Database to Transferable Force Fields">
+<a href="https://elibrary.narr.digital/article/10.24053/TuS-2023-0017">
+  <img src="publications/images/wingertszahn_measurement_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Measurement, modelling, and application of lubricant properties at extreme pressures">
 </a>
 </div>
 
 <div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://doi.org/10.1021/acs.jcim.3c01484">
-  <h5 class="no-anchor card-title listing-title">Extension of the MolMod Database to Transferable Force Fields</h5>
+<a class="quarto-grid-link" href="https://elibrary.narr.digital/article/10.24053/TuS-2023-0017">
+  <h5 class="no-anchor card-title listing-title">Measurement, modelling, and application of lubricant properties at extreme pressures</h5>
 </a>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
-
 </div>
 <div class="card-text">
 <div class="listing-description">
-<p><strong>S. Schmitt</strong>, G. Kanagalingam, F. Fleckenstein, D. Froescher, H. Hasse, S. Stephan, <em>Journal of Chemical Information and Modeling</em> 63 (2023) 7148–7158.</p>
+<p>P. Wingertszahn, <strong>S. Schmitt</strong>, S. Thielen, M. Oehler, B. Magyar, O. Koch, H. Hasse, S. Stephan, <em>Tribologie und Schmierungstechnik</em> 70 (2023) 5–12.</p>
 </div>
 </div>
 </div>
 <div class="card-footer">
-<p>DOI: 10.1021/acs.jcim.3c01484</p>
+<p>DOI: 10.24053/TuS-2023-0017</p>
 </div>
 </div>
 </div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="11" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="13" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
@@ -743,68 +803,6 @@ window.Quarto = {
 </div>
 <div class="card-footer">
 <p>DOI: 10.1038/s41597-023-02369-8</p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="12" data-categories="Q29uZmVyZW5jZSUyMFByb2NlZWRpbmdzJTJDZmlyc3QlMjBhdXRob3I=">
-<div class="quarto-grid-item card h-100 card-center projects">
-
-<div class="card-img-top">
-<a href="">
-  <img src="publications/images/schmitt_molecular_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Molecular Dynamics Simulation of Cutting Processes: The Influence of Cutting Fluids at the Atomistic Scale">
-</a>
-</div>
-
-<div class="card-body post-contents">
-<a class="quarto-grid-link" href="">
-  <h5 class="no-anchor card-title listing-title">Molecular Dynamics Simulation of Cutting Processes: The Influence of Cutting Fluids at the Atomistic Scale</h5>
-</a>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Q29uZmVyZW5jZSUyMFByb2NlZWRpbmdz'); return false;">Conference Proceedings</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
-
-</div>
-<div class="card-text">
-<div class="listing-description">
-<p><strong>S. Schmitt</strong>, S. Stephan, B. Kirsch, J. Aurich, H. Urbassek, H. Hasse, In: <em>Proceedings of the 3rd Conference on Physical Modeling for Virtual Manufacturing Systems and Processes</em> (2023) 260–280.</p>
-</div>
-</div>
-</div>
-<div class="card-footer">
-<p>DOI: 10.1007/978-3-031-35779-4_14</p>
-</div>
-</div>
-</div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="13" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
-<div class="quarto-grid-item card h-100 card-center projects">
-
-<div class="card-img-top">
-<a href="https://doi.org/10.1021/acs.jpcb.2c07997">
-  <img src="publications/images/schmitt_comparison_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Comparison of force fields for the prediction of thermophysical properties of long linear and branched alkanes">
-</a>
-</div>
-
-<div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://doi.org/10.1021/acs.jpcb.2c07997">
-  <h5 class="no-anchor card-title listing-title">Comparison of force fields for the prediction of thermophysical properties of long linear and branched alkanes</h5>
-</a>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
-
-</div>
-<div class="card-text">
-<div class="listing-description">
-<p><strong>S. Schmitt</strong>, F. Fleckenstein, H. Hasse, S. Stephan, <em>The Journal of Physical Chemistry B</em> 127 (2023) 1789–1802.</p>
-</div>
-</div>
-</div>
-<div class="card-footer">
-<p>DOI: 10.1021/acs.jpcb.2c07997</p>
 </div>
 </div>
 </div>
@@ -837,36 +835,100 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="15" data-categories="Sm91cm5hbCUyMEFydGljbGU=">
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="15" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
-<a href="https://elibrary.narr.digital/article/10.24053/TuS-2023-0017">
-  <img src="publications/images/wingertszahn_measurement_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Measurement, modelling, and application of lubricant properties at extreme pressures">
+<a href="https://doi.org/10.1021/acs.jpcb.2c07997">
+  <img src="publications/images/schmitt_comparison_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Comparison of force fields for the prediction of thermophysical properties of long linear and branched alkanes">
 </a>
 </div>
 
 <div class="card-body post-contents">
-<a class="quarto-grid-link" href="https://elibrary.narr.digital/article/10.24053/TuS-2023-0017">
-  <h5 class="no-anchor card-title listing-title">Measurement, modelling, and application of lubricant properties at extreme pressures</h5>
+<a class="quarto-grid-link" href="https://doi.org/10.1021/acs.jpcb.2c07997">
+  <h5 class="no-anchor card-title listing-title">Comparison of force fields for the prediction of thermophysical properties of long linear and branched alkanes</h5>
 </a>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
+
 </div>
 <div class="card-text">
 <div class="listing-description">
-<p>P. Wingertszahn, <strong>S. Schmitt</strong>, S. Thielen, M. Oehler, B. Magyar, O. Koch, H. Hasse, S. Stephan, <em>Tribologie und Schmierungstechnik</em> 70 (2023) 5–12.</p>
+<p><strong>S. Schmitt</strong>, F. Fleckenstein, H. Hasse, S. Stephan, <em>The Journal of Physical Chemistry B</em> 127 (2023) 1789–1802.</p>
 </div>
 </div>
 </div>
 <div class="card-footer">
-<p>DOI: 10.24053/TuS-2023-0017</p>
+<p>DOI: 10.1021/acs.jpcb.2c07997</p>
 </div>
 </div>
 </div>
 <div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="16" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="https://doi.org/10.1021/acs.jcim.3c01484">
+  <img src="publications/images/schmitt_extension_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Extension of the MolMod Database to Transferable Force Fields">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="https://doi.org/10.1021/acs.jcim.3c01484">
+  <h5 class="no-anchor card-title listing-title">Extension of the MolMod Database to Transferable Force Fields</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Sm91cm5hbCUyMEFydGljbGU='); return false;">Journal Article</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p><strong>S. Schmitt</strong>, G. Kanagalingam, F. Fleckenstein, D. Froescher, H. Hasse, S. Stephan, <em>Journal of Chemical Information and Modeling</em> 63 (2023) 7148–7158.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1021/acs.jcim.3c01484</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="17" data-categories="Q29uZmVyZW5jZSUyMFByb2NlZWRpbmdzJTJDZmlyc3QlMjBhdXRob3I=">
+<div class="quarto-grid-item card h-100 card-center projects">
+
+<div class="card-img-top">
+<a href="">
+  <img src="publications/images/schmitt_molecular_2023.svg" class="thumbnail-image card-img" loading="lazy" alt="Molecular Dynamics Simulation of Cutting Processes: The Influence of Cutting Fluids at the Atomistic Scale">
+</a>
+</div>
+
+<div class="card-body post-contents">
+<a class="quarto-grid-link" href="">
+  <h5 class="no-anchor card-title listing-title">Molecular Dynamics Simulation of Cutting Processes: The Influence of Cutting Fluids at the Atomistic Scale</h5>
+</a>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29uZmVyZW5jZSUyMFByb2NlZWRpbmdz'); return false;">Conference Proceedings</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Zmlyc3QlMjBhdXRob3I='); return false;">first author</div>
+
+</div>
+<div class="card-text">
+<div class="listing-description">
+<p><strong>S. Schmitt</strong>, S. Stephan, B. Kirsch, J. Aurich, H. Urbassek, H. Hasse, In: <em>Proceedings of the 3rd Conference on Physical Modeling for Virtual Manufacturing Systems and Processes</em> (2023) 260–280.</p>
+</div>
+</div>
+</div>
+<div class="card-footer">
+<p>DOI: 10.1007/978-3-031-35779-4_14</p>
+</div>
+</div>
+</div>
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="18" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
@@ -897,7 +959,7 @@ window.Quarto = {
 </div>
 </div>
 </div>
-<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="17" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
+<div class="g-col-12 g-col-lg-6 g-col-xl-4" data-index="19" data-categories="Sm91cm5hbCUyMEFydGljbGUlMkNmaXJzdCUyMGF1dGhvcg==">
 <div class="quarto-grid-item card h-100 card-center projects">
 
 <div class="card-img-top">
@@ -930,6 +992,9 @@ window.Quarto = {
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="publications-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1036,16 +1101,16 @@ window.Quarto = {
     }
     function toggleCodeHandler(show) {
       return function(e) {
-        const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-        for (let i=0; i<detailsSrc.length; i++) {
-          const details = detailsSrc[i].parentElement;
+        const cellDetails = window.document.querySelectorAll(".cell details.code-fold");
+        for (let i=0; i<cellDetails.length; i++) {
+          const details = cellDetails[i];
           if (show) {
             details.open = true;
           } else {
             details.removeAttribute("open");
           }
         }
-        const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+        const cellCodeDivs = window.document.querySelectorAll(".cell div.sourceCode.cell-code");
         const fromCls = show ? "hidden" : "unhidden";
         const toCls = show ? "unhidden" : "hidden";
         for (let i=0; i<cellCodeDivs.length; i++) {
