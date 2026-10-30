@@ -7,7 +7,8 @@ bib_file = "my_publications.bib"
 bib = CitationBibliography(bib_file)
 entries = bib.entries
 
-dates = getproperty.(values(entries), :date)
+pub_date(d) = Date(parse(Int, d.year), isempty(d.month) ? 1 : month(Date(d.month, dateformat"U")))
+dates = [pub_date(e.date) for e in values(entries)]
 idx_sort = sortperm(dates; rev=true)
 
 create_authors(auths) = begin
@@ -40,9 +41,6 @@ for k in collect(keys(entries))[idx_sort]
     else
         error("No citation method for type '$(entry_i.type)'")
     end
-
-    month_i = isempty(entry_i.date.month) ? 1 : month(Date(entry_i.date.month, dateformat"U"))
-    date_i = join([entry_i.date.year,month_i,1],"-")
 
     startswith(citation_i,"__S. Schmitt__") && push!(category_i, "first author")
     
