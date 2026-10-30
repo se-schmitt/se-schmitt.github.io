@@ -16,16 +16,16 @@
 <link>https://se-schmitt.github.io/projects.html</link>
 </image>
 <generator>quarto-1.10.20</generator>
-<lastBuildDate>Fri, 30 Oct 2026 18:53:29 GMT</lastBuildDate>
+<lastBuildDate>Fri, 30 Oct 2026 18:57:28 GMT</lastBuildDate>
 <item>
   <title>EntropyScaling.jl</title>
   <link>https://se-schmitt.github.io/</link>
-  <description>Julia package for modeling transport properties based on entropy scaling enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients</description>
+  <description>Julia package for modeling transport properties based on entropy scaling, enabling the physical modeling of the viscosity, thermal conductivity, and diffusion coefficients</description>
   <category>JuliaLang</category>
   <category>Thermodynamics</category>
   <category>Transport Properties</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Fri, 30 Oct 2026 18:53:29 GMT</pubDate>
+  <pubDate>Fri, 30 Oct 2026 18:57:28 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/EntropyScaling_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -36,37 +36,37 @@
   <category>Thermodynamics</category>
   <category>Machine Learning</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Fri, 30 Oct 2026 18:53:29 GMT</pubDate>
+  <pubDate>Fri, 30 Oct 2026 18:57:28 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/MLThermoProperties_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>Clapeyron.jl</title>
   <link>https://se-schmitt.github.io/</link>
-  <description>Extensive thermodynamic library written in the Julia language including thermodynamic property solvers and a large variety of different models</description>
+  <description>Extensive thermodynamic library written in the Julia language, including thermodynamic property solvers and a large variety of different models</description>
   <category>JuliaLang</category>
   <category>Thermodynamics</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Fri, 30 Oct 2026 18:53:29 GMT</pubDate>
+  <pubDate>Fri, 30 Oct 2026 18:57:28 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/Clapeyron_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>pyclapeyron</title>
   <link>https://se-schmitt.github.io/</link>
-  <description>Python wrapper for Clapeyron.jl.</description>
+  <description>Python wrapper for Clapeyron.jl</description>
   <category>Python</category>
   <category>Thermodynamics</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Fri, 30 Oct 2026 18:53:29 GMT</pubDate>
+  <pubDate>Fri, 30 Oct 2026 18:57:28 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/pyclapeyron.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
   <title>BatchDistillation.jl</title>
   <link>https://se-schmitt.github.io/</link>
-  <description>Julia code to simulate dynamic batch distillation processes using Clapeyron.jl and MLThermoProperties as thermo backend</description>
+  <description>Julia code to simulate dynamic batch distillation processes using Clapeyron.jl and MLThermoProperties.jl as thermodynamic backends</description>
   <category>JuliaLang</category>
   <category>Process Simulation</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Fri, 30 Oct 2026 18:53:29 GMT</pubDate>
+  <pubDate>Fri, 30 Oct 2026 18:57:28 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/BatchDistillation_jl.svg" medium="image" type="image/svg+xml"/>
 </item>
 <item>
@@ -76,7 +76,7 @@
   <category>JuliaLang</category>
   <category>Thermodynamics</category>
   <guid>https://se-schmitt.github.io/</guid>
-  <pubDate>Fri, 30 Oct 2026 18:53:29 GMT</pubDate>
+  <pubDate>Fri, 30 Oct 2026 18:57:28 GMT</pubDate>
   <media:content url="https://se-schmitt.github.io/projects/github.svg" medium="image" type="image/svg+xml"/>
 </item>
 </channel>
